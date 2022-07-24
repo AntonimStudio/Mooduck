@@ -65,7 +65,7 @@ public class CharacterMovement : MonoBehaviour
         else { transform.position += airSpeedCoef * input * speed * Time.deltaTime; }
     }
 
-    private void Jump()
+    public void Jump()
     {
         rb.AddForce(Vector2.up * jumpAmount, ForceMode2D.Impulse);
         State = States.jump;

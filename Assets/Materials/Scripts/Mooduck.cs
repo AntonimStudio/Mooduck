@@ -4,14 +4,15 @@ using UnityEngine;
 
 public class Mooduck : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+     public BoxCollider2D bc;
+
+
+    public void Start()
     {
-        
+        bc = GetComponent<BoxCollider2D>();
     }
 
-    // Update is called once per frame
-    void Update()
+    public void Update()
     {
         
     }
