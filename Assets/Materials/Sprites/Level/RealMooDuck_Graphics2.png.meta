@@ -1,0 +1,5603 @@
+fileFormatVersion: 2
+guid: 12a877aa90f98db4ba5e72822fc22640
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 986
+        width: 1400
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16944f47a665bbd4d8a083bf71a284e3
+      internalID: -1508257719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_1
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 959
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12f8bfcefb8848949888335de66ff54d
+      internalID: -974006679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_2
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 959
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33698c346ccc57f469cec278ceef8dca
+      internalID: -2050904477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_3
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 959
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b437ebacf3ca9d469f54282ce59f709
+      internalID: -1844872082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_4
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 967
+        width: 24
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9249bd5ae2bb804f811b6a16f3d7f87
+      internalID: -520316899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_5
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 977
+        width: 24
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11594f81bad558a4e8a0b64cf317d25f
+      internalID: -308494321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_6
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 955
+        width: 140
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c987eee930f04e94391e98619a739574
+      internalID: -312196903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_7
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 948
+        width: 70
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6455a212d39822148a5d209a1e6e45de
+      internalID: -391070894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_8
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 948
+        width: 69
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02c9ff8c7306bcd4db21f7bfc601f452
+      internalID: -1429269006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_9
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 971
+        width: 35
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a92517e4bfdc9b74bac9ec338134c836
+      internalID: 2022620990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_10
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 971
+        width: 35
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98ec6d6e4653e514cb95e0c1eab27756
+      internalID: 921013059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_11
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 939
+        width: 23
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 373a0734252ca624ba69dbfa6b977eeb
+      internalID: -46625324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_12
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 939
+        width: 23
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82ce825adac90274287a8c501fd7f31b
+      internalID: -922835338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_13
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 939
+        width: 23
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee3b003cf5f03584cb5bfadd1957487c
+      internalID: -812217116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_14
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 939
+        width: 24
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae7f5b1bb822805479a86ca442454287
+      internalID: -1861675650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_15
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 940
+        width: 24
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6816d7462776c8d40ae9f3f72bd3dd26
+      internalID: -2144645746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_16
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 817
+        width: 337
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b55dad1b8d628c545ae53286e16bf2eb
+      internalID: 905935928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_17
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 969
+        width: 24
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2bbf098959c1b9459147363297f5fc7
+      internalID: 1634925744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_18
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 949
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad0185d508c3b444b92b51f5516c4f1d
+      internalID: -1594605144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_19
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 959
+        width: 24
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb9c7ffedca7e784e86b150247e36722
+      internalID: -439791213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_20
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 957
+        width: 35
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 571dac6ebd902b44ba9e00224a94dab1
+      internalID: 2143279441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_21
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 957
+        width: 35
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dad2c6e863cdea04784aae27c7338ac1
+      internalID: -1549426792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_22
+      rect:
+        serializedVersion: 2
+        x: 1073
+        y: 900
+        width: 45
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02d0394e67a0f234983c148ac654aa39
+      internalID: -1089045625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_23
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 932
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc28981766017414091fb35a01fb346c
+      internalID: -460240217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_24
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 932
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe1fb5032f7b6c6449a2ac52ff9c9dbd
+      internalID: -885528310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_25
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 932
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87906eb76ffa56847a444a8b6c62772f
+      internalID: 1652188603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_26
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 932
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3f8dc9e515a4274bb68233d13a2855c
+      internalID: -1357506464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_27
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 945
+        width: 24
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8065f154d2e414459d3eb6197e9537c
+      internalID: 1733965733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_28
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 864
+        width: 91
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d813b8dcfa3c5c54fa407be14110097b
+      internalID: -278310663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_29
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 908
+        width: 58
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4d28746b5ac1f74d84c6c78bc279bd1
+      internalID: -1102519622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_30
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 912
+        width: 71
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f14726e654d15e429900814b9e15cf8
+      internalID: -646016861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_31
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 912
+        width: 69
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ac189c995866714d97044142ea4a6bf
+      internalID: 1538515516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_32
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 944
+        width: 35
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75dcae93be8ef2b47aecdfdd53887717
+      internalID: -1001743410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_33
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 944
+        width: 35
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee1b42414bb25414c939e4f3c53ec831
+      internalID: 195118898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_34
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 932
+        width: 24
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 174b2bc61f2d3f2438be7947a474a7fb
+      internalID: 2093962393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_35
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 931
+        width: 35
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: def68cbd6fc774942b98a461b55a23d0
+      internalID: 1802288790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_36
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 931
+        width: 35
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4194a659d282fa49bc08d58fc4c21dd
+      internalID: -654102534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_37
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 905
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9832d217551eb6f44bbf121984182ac7
+      internalID: -1770072500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_38
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 905
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0febeaa5e23f72c488c56997d1c2429d
+      internalID: -2041199445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_39
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 905
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab5e0736fcab87d45bfd54f494b2b5c1
+      internalID: -161144075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_40
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 905
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ffaff8ce6664c94394cbc4c031923c6
+      internalID: 524885198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_41
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 905
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0d7b1a9b3f57f741b238bb206a096a7
+      internalID: -867972008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_42
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 918
+        width: 35
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56272266c507b2f43be8c8df48ebf097
+      internalID: 367905894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_43
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 918
+        width: 35
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 386c66c70cde4104f935b352595cb809
+      internalID: 1588119233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_44
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 906
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d9123099e9fc0a4a80df7c2dc9728ac
+      internalID: 320908723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_45
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 882
+        width: 73
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c0d5fc689821334bb8b6748112ac324
+      internalID: 2141696313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_46
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 882
+        width: 67
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 093a6bbf33f82da47b0b6ada54b47742
+      internalID: -260367563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_47
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 909
+        width: 7
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e5ff2af2bbbdf542b87c71eb77130bd
+      internalID: 33965563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_48
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 909
+        width: 7
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f31ef1393fb8eaf46a49b34ef896b5d1
+      internalID: -1143964383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_49
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 909
+        width: 7
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fdfbce571e98eb4c94c248b8f546468
+      internalID: -1353704423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_50
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 909
+        width: 7
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04d7e2a01c12117459e8464467ba1097
+      internalID: 1023985102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_51
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 909
+        width: 7
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f96816375257ea74d8854610cf282c9d
+      internalID: 857381483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_52
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 909
+        width: 7
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0555bc0c1020c8d41b0156a2d06073ea
+      internalID: -422375183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_53
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 905
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed10ead4102b81b40af33ccb0524a8d0
+      internalID: -841413201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_54
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 878
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 650afd3ebc160ad4d8f0f2a388caa890
+      internalID: -650962588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_55
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 878
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7395437b47d526c4980c420b828c9f86
+      internalID: 135785946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_56
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 878
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fad70c1ea8bf0248ad383c4b6aede29
+      internalID: 1648560312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_57
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 878
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f387a6a83ba41e14ea2f187ac08cb935
+      internalID: 1315104474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_58
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 878
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f94b2f3c155c58c44b5e0389983a39ad
+      internalID: -728080609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_59
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 887
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 734808f3c9c9fdf4987c491457688d6f
+      internalID: -232512241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_60
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 887
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a3efb4336ebbe4488141d1ba4926551
+      internalID: 1318288442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_61
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 887
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7757735a3f9085443a68b9060bdb19f7
+      internalID: 1719922767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_62
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 887
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82c255838add29e4aab38900d6220126
+      internalID: -1571496849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_63
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 887
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4955af2c951a91042bb2b6ebf09a9ebe
+      internalID: 1025612288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_64
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 865
+        width: 61
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67f7b8dac2c4aa04db044f540c8a0086
+      internalID: 1474410859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_65
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 863
+        width: 61
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d8e00f008d8dfd498a2a65bfc3e28c1
+      internalID: -1474400180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_66
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 863
+        width: 49
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e828dfe2eb3259b4e95c98cca847b2cc
+      internalID: 1388744820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_67
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 851
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87d26f3b03b8723439780629612a8191
+      internalID: 781434697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_68
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 851
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f494be149daf09a4fa814ec506c2bfc7
+      internalID: 990052089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_69
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 851
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 462106c1e3f4a4f489259436c36cbd94
+      internalID: -206505138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_70
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 851
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 330fb5c0f9ec3f24497a8ef45246874d
+      internalID: 1094708329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_71
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 851
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec38977e11cdda2479db419592a9b06b
+      internalID: -417621483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_72
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 865
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48f46cecd1c699146bb0fd6a4cbd104e
+      internalID: -1906028285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_73
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 865
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56adcb0d127356f4e960a49f9f66e69d
+      internalID: 1650536831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_74
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 865
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e024553d5d545794b846b79174098d55
+      internalID: 610366939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_75
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 865
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06600f2bd7b68a74593896952e756a97
+      internalID: 296389406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_76
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 865
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f366d98b9d2f42b4cbd6e0273fe7f190
+      internalID: -862300491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_77
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 830
+        width: 73
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6839e05edc093024bbbf3d79930e6ea1
+      internalID: -967536555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_78
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 835
+        width: 67
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d50626be8f94146429b1ff95c736778b
+      internalID: -1539339345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_79
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 824
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac8267887ad00e24aaa34c0f9ba8c89e
+      internalID: 870322742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_80
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 824
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: babf43b32257f3a479b6f705d5c6ac2e
+      internalID: 558782715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_81
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 824
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32511d318dcfd7345951f0f96f3505da
+      internalID: 1440463544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_82
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 824
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 645e696373fc4154ba0ac11dd1f88354
+      internalID: 1071382507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_83
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 820
+        width: 23
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0285b1fe14656c54dbbfdab1f80c9c5a
+      internalID: -669196129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_84
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 820
+        width: 23
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30530ab417633ed41aea7309066cfce3
+      internalID: -1439713645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_85
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 820
+        width: 23
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2eff2818f8d9d245a8953aec4b99d43
+      internalID: 1165392667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_86
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 820
+        width: 23
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92d1bea526de1c64da6978957de721cf
+      internalID: 151450041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_87
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 821
+        width: 24
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03d9cca1209b85947953b608cf408a30
+      internalID: 207421381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_88
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 843
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0c28f3bd8955084180572f7263c60f0
+      internalID: -213251400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_89
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 843
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5461a03a3d06a1489f54f22fd409c40
+      internalID: 201190252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_90
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 843
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 735e4e77f7d6b484eb742fb9c719195e
+      internalID: 411361582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_91
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 843
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3dd4794819e81f4e8ddc34199030571
+      internalID: 880517684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_92
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 818
+        width: 61
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5408f4bf8abe2a40a4c03304d47fb0a
+      internalID: 27336146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_93
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 816
+        width: 61
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6080073d59bbfa4ebf29018e8b3a31d
+      internalID: -1128251737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_94
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 816
+        width: 49
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a5eb4dc653616c4a815a35becc1a899
+      internalID: 510401426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_95
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 821
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d762e63b63c9c114ca0f8c0e9a68ad26
+      internalID: -559793430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_96
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 821
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f9e47435cee10549bbceb74c13ac921
+      internalID: 1442912668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_97
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 821
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e82a15ff9a03034793fdf6871881553
+      internalID: 179357998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_98
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 821
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 204196062811fe54b8993f959ed1fdc5
+      internalID: 1044611838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_99
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 779
+        width: 73
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31e0c3e0df1910e42aeaf710d76dada5
+      internalID: 1205282909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_100
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 789
+        width: 67
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8455768bfd351c4283613ed584945d0
+      internalID: -1062802261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_101
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 797
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f641aa9070c07f64e8de3c8a2416a00d
+      internalID: 453738704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_102
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 797
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5933f122c75a92849b3e69cefea0a004
+      internalID: -1928350433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_103
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 797
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5daa33c7e3b94c84da116470ca9d614c
+      internalID: -2049502310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_104
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 797
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2448658321e4244c974287667653329
+      internalID: 911434283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_105
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 792
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bfbb9398dea01841a770fecdf702409
+      internalID: -304430299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_106
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 792
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3abc0ec56198cbd478d475f08d1f4cec
+      internalID: 1832768522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_107
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 778
+        width: 36
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ee25f7e0b159124face85f3a6894327
+      internalID: 693025952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_108
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 778
+        width: 36
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48542a9b219bf4f469c7d457de5f0666
+      internalID: 904736885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_109
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 797
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4828536045d69504fbdd6a5c0dd9551c
+      internalID: -1330988797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_110
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 797
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 877e255e2f8e8ff49a079aa0d4b08d55
+      internalID: 656990210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_111
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 797
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8644476965122114f8bda07ac26e12ee
+      internalID: 1504568537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_112
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 773
+        width: 61
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26a182a62dc255447900d51bc354464c
+      internalID: -1702335313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_113
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 771
+        width: 61
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9a7e144b1f473c4cb92949667fbefa6
+      internalID: 1269974008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_114
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 771
+        width: 49
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfeb5e5d9fa98b64c8ba71f8f0df4c9b
+      internalID: -1104009037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_115
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 687
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62b0e86ee3dec614b9412513e53da282
+      internalID: -423659439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_116
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 770
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03ee8dec22c15f74ea895a73acfd2c23
+      internalID: 78929022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_117
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 770
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5251e51cf6dbe741a38595a6271d62f
+      internalID: -1902557075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_118
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 770
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 582eebe8dd2ca91438a8c8d2f9e1b740
+      internalID: -626634820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_119
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 770
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f959d31effd645a41b587d74a571d51a
+      internalID: -1504031053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_120
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 759
+        width: 36
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3668c0ae83a116c4e968d31a1d30a43e
+      internalID: 1604674712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_121
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 759
+        width: 45
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c15689ee6013bed4f8af8de11db67d78
+      internalID: 608444760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_122
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 734
+        width: 40
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40f0b4d2aba85df47971501457c89040
+      internalID: -538725928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_123
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 734
+        width: 40
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb59cab290006dc42a8eee145535d7ba
+      internalID: -1180933806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_124
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 773
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27208f73f036655489ef690be53e11a2
+      internalID: -1185243749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_125
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 773
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cf18a18214dac742b31a6330c2f4497
+      internalID: -966559699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_126
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 773
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35df0620eba48d14fa271c6dd7ac98f8
+      internalID: -691977233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_127
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 732
+        width: 74
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9df72f8ecf891fb49835d2b9c28e281c
+      internalID: -469184240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_128
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 743
+        width: 67
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fda7e1a32654da419c91bace09bce47
+      internalID: -216012410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_129
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 376
+        width: 350
+        height: 305
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ca848929d53fe94d9c67c2389b52003
+      internalID: 1529974457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_130
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 720
+        width: 183
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54aa36f524435714c8010f13a539a525
+      internalID: -1872936267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_131
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 743
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2da35153b24e49f49bf729b43e42f7a6
+      internalID: -1429228601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_132
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 743
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a512bff2d7862c1438501f1a69319a56
+      internalID: 438640438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_133
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 743
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d843da837b8655645b5306ff9dbda625
+      internalID: 1305882574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_134
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 743
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0e7b7c43083d0f4c8ddba95141d0927
+      internalID: 2096230429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_135
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 725
+        width: 36
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02466050ccd07bf4fa373e41809dbb93
+      internalID: -602633665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_136
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 725
+        width: 45
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00a19e8b756163549aba74ee378607ce
+      internalID: 1971415849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_137
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 741
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83a010ecfa3cff848a944fb6069c647e
+      internalID: 2077991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_138
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 741
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb42ecb15cb852e4691a768923ec2074
+      internalID: 1164111654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_139
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 734
+        width: 62
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dce597ec5cf22f41b5dab80334d98fc
+      internalID: 814051061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_140
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 732
+        width: 62
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 595f2222461231e46b895d93749625c1
+      internalID: -981997604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_141
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 732
+        width: 50
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f25fa8da33e47bc40bb5fb600ed064d3
+      internalID: 1917043264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_144
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 716
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 734d232c45f3a1d47a7a3a1ad7df7394
+      internalID: 1877016921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_145
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 716
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b7c3a654b4fd974fbd1c8f09e742bde
+      internalID: 1577005455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_146
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 716
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73e95ef546153504ba51fb921317c08b
+      internalID: -609143911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_147
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 716
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf9604164bd468746a9665d0a08a55fc
+      internalID: 645925804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_148
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 691
+        width: 42
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aaf1a99b80840c46a2eb8c76fef0dfc
+      internalID: 751283396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_149
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 691
+        width: 42
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 734e6a68f2f3f8f459645c1bdf51fca1
+      internalID: -447189264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_150
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 685
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da9003ff8f30401469de5d60011db932
+      internalID: 483485823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_151
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 685
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 687cafee552b197459314b121caf775a
+      internalID: 920420995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_152
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 709
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6173e4788b39a449ba884367a9dd266
+      internalID: 157548733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_153
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 709
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58694f1411a35714f9d2fa37edd9affd
+      internalID: -197954275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_154
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 685
+        width: 35
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd858c2818b040a48b879506092db319
+      internalID: 572439853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_155
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 685
+        width: 35
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ebd9d36be7ca2d439599377a92e6194
+      internalID: 470516830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_156
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 685
+        width: 35
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71945768f20a0f241a8523b7cb968cb5
+      internalID: -1129691859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_157
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 685
+        width: 35
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a47df42f757f2994093ce9baf8a2bd23
+      internalID: -1416683390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_158
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 686
+        width: 35
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93034674ab3706f40b75cd316bd345d0
+      internalID: -176365263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_159
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 654
+        width: 88
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4869fb8499624a6469e99e9b850d7f8c
+      internalID: 844371467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_160
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 697
+        width: 68
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1ce6a739317878419193fd8cca85513
+      internalID: -12553046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_161
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 689
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d197a77d4727cb4faf5754c60e400d3
+      internalID: 1431659390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_162
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 689
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ca9b7ef64708394c9ac9b958cce0198
+      internalID: -1729828171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_163
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 689
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ddb1d0567ae64a419261a6b814d0b20
+      internalID: -1414469149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_164
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 689
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4274a84762169246940aec4f015bdc2
+      internalID: 258246976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_165
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 681
+        width: 96
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7b1c32bd75a02d489feff9f7d06ed68
+      internalID: 1801582856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_166
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 652
+        width: 71
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7a39f917177b5c46970a1f87fb8e221
+      internalID: -696871955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_168
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 662
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e296325dc417822499c3203bf7616680
+      internalID: -918260304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_169
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 662
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1d0e2a29fbdac244a3ae2774d5d9407
+      internalID: -1838359786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_170
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 662
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be597b28c5ced4c43b160a1a7feff844
+      internalID: 1572641187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_171
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 662
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a27ac8f6fb0e6f42812a3965b2f6725
+      internalID: -1952057619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_172
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 635
+        width: 19
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d85c23be4ba25541ae44692565ba19e
+      internalID: 2006138530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_173
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 635
+        width: 18
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29488ecb2ff119b48825c17ba6166390
+      internalID: -1058491110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_174
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 635
+        width: 22
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3009b374254ce0c4a8257188d777f635
+      internalID: -314149694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_175
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 635
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 208402383a13bb843a99fce88ef36a73
+      internalID: -1553367450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_176
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 635
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56975ee99bd2dfe4684b2f20bd5e1d94
+      internalID: 839078525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_177
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 653
+        width: 96
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16464e73b663d2f40b32d987ba70a715
+      internalID: 1720803405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_178
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 640
+        width: 35
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbbca0b30fdaf7340b3a526ac877e62b
+      internalID: -101735449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_179
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 640
+        width: 35
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73bd980a9c78c3b4fa62923ccb5feb1b
+      internalID: 1804686733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_180
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 640
+        width: 35
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deb905f90e098754db94b3b6f8a803e2
+      internalID: -285260601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_181
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 640
+        width: 35
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b90eb406542a6404da9e8194c82a0469
+      internalID: -479639297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_182
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 641
+        width: 35
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67022b7a971cecf41aaf210b8c6dd4e2
+      internalID: -1934293126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_183
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 635
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b34ddd2e5e52e54faeabaa55c3bcea3
+      internalID: 69143651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_184
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 635
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b256ceb207de52343ab9841e9e6b123f
+      internalID: -807434407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_185
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 635
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c7942a0392f17e41a49e02b35b4fe94
+      internalID: -1314402330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_186
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 635
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8913a58653a69b046a3c02fee46e3cdd
+      internalID: -985725939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_187
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 625
+        width: 96
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01bdc3a8ab470b946b890b60af6d86c6
+      internalID: 582478142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_188
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 489
+        width: 125
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a42b8d30eff7d2445bd571bc82ef69ba
+      internalID: 1836768717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_189
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 608
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffcdaf7085134e0459df4e0f086128ab
+      internalID: -1611271054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_190
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 608
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 061dc9dbec1eaa741a03ffcfe3551d71
+      internalID: -87068875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_191
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 608
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c9c1223c4d499e429da0957fdf9abb2
+      internalID: 1670617155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_192
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 608
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1d57b1ebd7dcfb4ebba848dfb3adff2
+      internalID: 2010241486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_193
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 608
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83c39af9d3ce10246838136abbcb617a
+      internalID: -855840704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_194
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 608
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b732f81bb182a9646b17c8824567096c
+      internalID: 1529735726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_195
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 608
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03364dd8d60874a4499ea080e31e9c50
+      internalID: 477800503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_196
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 608
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 168584e6ceceedb468e2ab8063133465
+      internalID: 960717497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_197
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 556
+        width: 12
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03e860d146a62324eb09b9a4c620da6b
+      internalID: -1978335458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_198
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 555
+        width: 4
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7730727ccc76c2f4caa04d046061aa1e
+      internalID: -1111760435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_199
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 597
+        width: 96
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b936d647241fbb84e82e950538bb4867
+      internalID: -361805048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_200
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 489
+        width: 186
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e68785481fed704181bf6f1607f8281
+      internalID: 1105120347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_201
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 489
+        width: 116
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddfdba8a0293c04468b6a166851bc1ed
+      internalID: -2034582209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_202
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 554
+        width: 96
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d16f66124a721c146939d57ea224ccfa
+      internalID: 86307657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_203
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 581
+        width: 72
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24ba62292c08f0d46b8c3143be6c4f5a
+      internalID: -246546595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_204
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 594
+        width: 21
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8031b8577b6555d4b9e1d229fec0c6bd
+      internalID: -1271095481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_205
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 581
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c5cae7a121411c45b9598da84d3dbe3
+      internalID: -1867763704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_206
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 581
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 788f3e6840c6d9040a61b0d890e71986
+      internalID: 809544926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_207
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 581
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b035ce53b3a3e6a4f92c944e79752448
+      internalID: -992836376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_208
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 581
+        width: 6
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 220ad37206bc3e5438aa2299cc8a2e5f
+      internalID: -329200879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_209
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 569
+        width: 96
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57a7f734c589d2a4597bbbb3550425fa
+      internalID: -1152577031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_210
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 582
+        width: 24
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60a3fe5e19fd7d1489b13fc5865fe491
+      internalID: 58574631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_211
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 554
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d55ee1bd26c3e04aabf2dce21612a13
+      internalID: -817764164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_212
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 554
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 417b6db2fb0447240ab2b4d7d5f3d01a
+      internalID: 1058497550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_213
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 554
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce131a7fab19f6c43a5d922572f5d79c
+      internalID: -880020242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_214
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 554
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e188ebd33e0db142bfa5a2dacbb10f7
+      internalID: -135417896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_215
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 541
+        width: 96
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6a1a2ba9ef219846bc7d94baa115816
+      internalID: 308448718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_216
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 535
+        width: 24
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b77e16631d5cc10458993107e543b13a
+      internalID: 1337668649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_217
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 535
+        width: 24
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7157e678bcfca024eae8bcf726c0e75f
+      internalID: -1170072172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_218
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 535
+        width: 24
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcfe97455839f0b49a4aa53c98d747a4
+      internalID: -2000357326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_219
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 535
+        width: 24
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdf04f739d2c2394d8963bdeb06da37e
+      internalID: -1289396308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_220
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 535
+        width: 24
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c2060243133625498522d477fb9c797
+      internalID: -1746566263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_222
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 535
+        width: 24
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4f274750b6de234f8411f7f6e4e1a6a
+      internalID: -1747162517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_223
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 535
+        width: 24
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4669f8ed040cd542bb540d906fded61
+      internalID: 1907339721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_224
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 535
+        width: 24
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f48ea2c60ed41440bff6b1f47f56f09
+      internalID: 1777800630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_225
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 513
+        width: 96
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30c9ec2c6d2e97447a4286164f5a39ce
+      internalID: -1476681178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_226
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 521
+        width: 132
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec724599b73b1ca4090f8c5f911a8fc7
+      internalID: -1968577796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_227
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 521
+        width: 24
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 892862783d34ff9408c365ccc3fdf40f
+      internalID: -1403408353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_228
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 521
+        width: 24
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ae52228008cea04ebbf74c819943b18
+      internalID: -27742426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_229
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 521
+        width: 24
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29871ac54f151da4b9c2e5d6ea4b49f8
+      internalID: -608178217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_230
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 505
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f6d73295d6378646b8eaa21334eb26b
+      internalID: -44423683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_231
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 505
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05d35b4b169f80f42a7d07839c372250
+      internalID: 1908224346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_232
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 505
+        width: 12
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8879953a4ae503f4f928f61f52e3f203
+      internalID: -1233833022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_233
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 505
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f7eff5833dee604e9a6a61a65a12f57
+      internalID: -1312660780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_234
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 495
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fb9ca3d6e26ad7479a559bfebe470e4
+      internalID: 374792534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_235
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 485
+        width: 96
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41b7f652a5d7e534e8d0177ea0eca508
+      internalID: 2097909410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_236
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 495
+        width: 16
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad1f05c30c584eb49a416e32bd58cf48
+      internalID: -1943781764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_237
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 495
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38a0d7c1021a1f541bcb99cf05ddbf9d
+      internalID: 355453746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_238
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 495
+        width: 16
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 017b13f2f9ce37046aca45aeef2d4b72
+      internalID: 753943711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_239
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 495
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 849420f764971e341bf6949de577420c
+      internalID: -60328795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_240
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 495
+        width: 13
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bbb6834dcc07d54a825db4b59736197
+      internalID: 1923167661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_241
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 388
+        width: 95
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 181d736c4fc014a41b5b195b2a0bcb4e
+      internalID: 308899622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_242
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 388
+        width: 89
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c30e88a642506f44ba85b3653211480d
+      internalID: -21666844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_243
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 388
+        width: 90
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c89248755ebcdc5489818dccc88764e4
+      internalID: 69442709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_244
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 388
+        width: 89
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c72e317336646864893d847df084c12d
+      internalID: 104501680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_245
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 388
+        width: 89
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c44b0bbbffb62774dbb5063fca68f071
+      internalID: 405971998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_246
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 386
+        width: 96
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4f3f2659557f284090cb6e0bf6ef269
+      internalID: -1212007962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_247
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 388
+        width: 119
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0edb2e97315d9b448f4ecb4b29e0c5f
+      internalID: 1302949636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_248
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 388
+        width: 84
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7acb1ce24bab4e447bd35dfeb49f41e4
+      internalID: 538275567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_142
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 581
+        width: 3
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41d734932d7b9b54eb7b9b440c89ab12
+      internalID: 76783904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_143
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 503
+        width: 24
+        height: 2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78ddbe4b9fec3a34a87d917445ac8eac
+      internalID: -673144156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealMooDuck_Graphics2_167
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 503
+        width: 24
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2fa69e2aa5955c4ea3aaf30e931824b
+      internalID: 1191574288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      RealMooDuck_Graphics2_79: 870322742
+      RealMooDuck_Graphics2_88: -213251400
+      RealMooDuck_Graphics2_107: 693025952
+      RealMooDuck_Graphics2_203: -246546595
+      RealMooDuck_Graphics2_165: 1801582856
+      RealMooDuck_Graphics2_13: -812217116
+      RealMooDuck_Graphics2_36: -654102534
+      RealMooDuck_Graphics2_218: -2000357326
+      RealMooDuck_Graphics2_171: -1952057619
+      RealMooDuck_Graphics2_194: 1529735726
+      RealMooDuck_Graphics2_0: -1508257719
+      RealMooDuck_Graphics2_3: -1844872082
+      RealMooDuck_Graphics2_43: 1588119233
+      RealMooDuck_Graphics2_146: -609143911
+      RealMooDuck_Graphics2_55: 135785946
+      RealMooDuck_Graphics2_19: -439791213
+      RealMooDuck_Graphics2_145: 1577005455
+      RealMooDuck_Graphics2_151: 920420995
+      RealMooDuck_Graphics2_120: 1604674712
+      RealMooDuck_Graphics2_123: -1180933806
+      RealMooDuck_Graphics2_213: -880020242
+      RealMooDuck_Graphics2_96: 1442912668
+      RealMooDuck_Graphics2_191: 1670617155
+      RealMooDuck_Graphics2_127: -469184240
+      RealMooDuck_Graphics2_23: -460240217
+      RealMooDuck_Graphics2_58: -728080609
+      RealMooDuck_Graphics2_187: 582478142
+      RealMooDuck_Graphics2_147: 645925804
+      RealMooDuck_Graphics2_102: -1928350433
+      RealMooDuck_Graphics2_83: -669196129
+      RealMooDuck_Graphics2_143: -673144156
+      RealMooDuck_Graphics2_157: -1416683390
+      RealMooDuck_Graphics2_181: -479639297
+      RealMooDuck_Graphics2_200: 1105120347
+      RealMooDuck_Graphics2_227: -1403408353
+      RealMooDuck_Graphics2_82: 1071382507
+      RealMooDuck_Graphics2_167: 1191574288
+      RealMooDuck_Graphics2_209: -1152577031
+      RealMooDuck_Graphics2_10: 921013059
+      RealMooDuck_Graphics2_80: 558782715
+      RealMooDuck_Graphics2_97: 179357998
+      RealMooDuck_Graphics2_242: -21666844
+      RealMooDuck_Graphics2_129: 1529974457
+      RealMooDuck_Graphics2_137: 2077991
+      RealMooDuck_Graphics2_174: -314149694
+      RealMooDuck_Graphics2_217: -1170072172
+      RealMooDuck_Graphics2_231: 1908224346
+      RealMooDuck_Graphics2_44: 320908723
+      RealMooDuck_Graphics2_47: 33965563
+      RealMooDuck_Graphics2_189: -1611271054
+      RealMooDuck_Graphics2_148: 751283396
+      RealMooDuck_Graphics2_52: -422375183
+      RealMooDuck_Graphics2_175: -1553367450
+      RealMooDuck_Graphics2_235: 2097909410
+      RealMooDuck_Graphics2_221: 222098587
+      RealMooDuck_Graphics2_124: -1185243749
+      RealMooDuck_Graphics2_238: 753943711
+      RealMooDuck_Graphics2_237: 355453746
+      RealMooDuck_Graphics2_178: -101735449
+      RealMooDuck_Graphics2_230: -44423683
+      RealMooDuck_Graphics2_110: 656990210
+      RealMooDuck_Graphics2_87: 207421381
+      RealMooDuck_Graphics2_136: 1971415849
+      RealMooDuck_Graphics2_133: 1305882574
+      RealMooDuck_Graphics2_228: -27742426
+      RealMooDuck_Graphics2_132: 438640438
+      RealMooDuck_Graphics2_16: 905935928
+      RealMooDuck_Graphics2_37: -1770072500
+      RealMooDuck_Graphics2_130: -1872936267
+      RealMooDuck_Graphics2_76: -862300491
+      RealMooDuck_Graphics2_115: -423659439
+      RealMooDuck_Graphics2_204: -1271095481
+      RealMooDuck_Graphics2_86: 151450041
+      RealMooDuck_Graphics2_223: 1907339721
+      RealMooDuck_Graphics2_99: 1205282909
+      RealMooDuck_Graphics2_184: -807434407
+      RealMooDuck_Graphics2_84: -1439713645
+      RealMooDuck_Graphics2_73: 1650536831
+      RealMooDuck_Graphics2_247: 1302949636
+      RealMooDuck_Graphics2_113: 1269974008
+      RealMooDuck_Graphics2_85: 1165392667
+      RealMooDuck_Graphics2_158: -176365263
+      RealMooDuck_Graphics2_41: -867972008
+      RealMooDuck_Graphics2_71: -417621483
+      RealMooDuck_Graphics2_27: 1733965733
+      RealMooDuck_Graphics2_108: 904736885
+      RealMooDuck_Graphics2_172: 2006138530
+      RealMooDuck_Graphics2_35: 1802288790
+      RealMooDuck_Graphics2_53: -841413201
+      RealMooDuck_Graphics2_54: -650962588
+      RealMooDuck_Graphics2_39: -161144075
+      RealMooDuck_Graphics2_169: -1838359786
+      RealMooDuck_Graphics2_101: 453738704
+      RealMooDuck_Graphics2_207: -992836376
+      RealMooDuck_Graphics2_222: -1747162517
+      RealMooDuck_Graphics2_177: 1720803405
+      RealMooDuck_Graphics2_193: -855840704
+      RealMooDuck_Graphics2_176: 839078525
+      RealMooDuck_Graphics2_160: -12553046
+      RealMooDuck_Graphics2_51: 857381483
+      RealMooDuck_Graphics2_33: 195118898
+      RealMooDuck_Graphics2_59: -232512241
+      RealMooDuck_Graphics2_135: -602633665
+      RealMooDuck_Graphics2_56: 1648560312
+      RealMooDuck_Graphics2_183: 69143651
+      RealMooDuck_Graphics2_195: 477800503
+      RealMooDuck_Graphics2_234: 374792534
+      RealMooDuck_Graphics2_210: 58574631
+      RealMooDuck_Graphics2_91: 880517684
+      RealMooDuck_Graphics2_141: 1917043264
+      RealMooDuck_Graphics2_46: -260367563
+      RealMooDuck_Graphics2_243: 69442709
+      RealMooDuck_Graphics2_49: -1353704423
+      RealMooDuck_Graphics2_182: -1934293126
+      RealMooDuck_Graphics2_119: -1504031053
+      RealMooDuck_Graphics2_11: -46625324
+      RealMooDuck_Graphics2_7: -391070894
+      RealMooDuck_Graphics2_122: -538725928
+      RealMooDuck_Graphics2_149: -447189264
+      RealMooDuck_Graphics2_111: 1504568537
+      RealMooDuck_Graphics2_1: -974006679
+      RealMooDuck_Graphics2_32: -1001743410
+      RealMooDuck_Graphics2_78: -1539339345
+      RealMooDuck_Graphics2_164: 258246976
+      RealMooDuck_Graphics2_214: -135417896
+      RealMooDuck_Graphics2_170: 1572641187
+      RealMooDuck_Graphics2_6: -312196903
+      RealMooDuck_Graphics2_29: -1102519622
+      RealMooDuck_Graphics2_70: 1094708329
+      RealMooDuck_Graphics2_140: -981997604
+      RealMooDuck_Graphics2_196: 960717497
+      RealMooDuck_Graphics2_31: 1538515516
+      RealMooDuck_Graphics2_12: -922835338
+      RealMooDuck_Graphics2_155: 470516830
+      RealMooDuck_Graphics2_64: 1474410859
+      RealMooDuck_Graphics2_22: -1089045625
+      RealMooDuck_Graphics2_94: 510401426
+      RealMooDuck_Graphics2_173: -1058491110
+      RealMooDuck_Graphics2_144: 1877016921
+      RealMooDuck_Graphics2_50: 1023985102
+      RealMooDuck_Graphics2_154: 572439853
+      RealMooDuck_Graphics2_61: 1719922767
+      RealMooDuck_Graphics2_244: 104501680
+      RealMooDuck_Graphics2_208: -329200879
+      RealMooDuck_Graphics2_92: 27336146
+      RealMooDuck_Graphics2_239: -60328795
+      RealMooDuck_Graphics2_225: -1476681178
+      RealMooDuck_Graphics2_216: 1337668649
+      RealMooDuck_Graphics2_93: -1128251737
+      RealMooDuck_Graphics2_5: -308494321
+      RealMooDuck_Graphics2_198: -1111760435
+      RealMooDuck_Graphics2_67: 781434697
+      RealMooDuck_Graphics2_105: -304430299
+      RealMooDuck_Graphics2_142: 76783904
+      RealMooDuck_Graphics2_153: -197954275
+      RealMooDuck_Graphics2_21: -1549426792
+      RealMooDuck_Graphics2_106: 1832768522
+      RealMooDuck_Graphics2_240: 1923167661
+      RealMooDuck_Graphics2_103: -2049502310
+      RealMooDuck_Graphics2_219: -1289396308
+      RealMooDuck_Graphics2_229: -608178217
+      RealMooDuck_Graphics2_166: -696871955
+      RealMooDuck_Graphics2_236: -1943781764
+      RealMooDuck_Graphics2_8: -1429269006
+      RealMooDuck_Graphics2_69: -206505138
+      RealMooDuck_Graphics2_72: -1906028285
+      RealMooDuck_Graphics2_117: -1902557075
+      RealMooDuck_Graphics2_212: 1058497550
+      RealMooDuck_Graphics2_134: 2096230429
+      RealMooDuck_Graphics2_220: -1746566263
+      RealMooDuck_Graphics2_241: 308899622
+      RealMooDuck_Graphics2_109: -1330988797
+      RealMooDuck_Graphics2_224: 1777800630
+      RealMooDuck_Graphics2_206: 809544926
+      RealMooDuck_Graphics2_180: -285260601
+      RealMooDuck_Graphics2_66: 1388744820
+      RealMooDuck_Graphics2_18: -1594605144
+      RealMooDuck_Graphics2_42: 367905894
+      RealMooDuck_Graphics2_89: 201190252
+      RealMooDuck_Graphics2_14: -1861675650
+      RealMooDuck_Graphics2_190: -87068875
+      RealMooDuck_Graphics2_40: 524885198
+      RealMooDuck_Graphics2_118: -626634820
+      RealMooDuck_Graphics2_215: 308448718
+      RealMooDuck_Graphics2_205: -1867763704
+      RealMooDuck_Graphics2_95: -559793430
+      RealMooDuck_Graphics2_179: 1804686733
+      RealMooDuck_Graphics2_48: -1143964383
+      RealMooDuck_Graphics2_226: -1968577796
+      RealMooDuck_Graphics2_45: 2141696313
+      RealMooDuck_Graphics2_15: -2144645746
+      RealMooDuck_Graphics2_25: 1652188603
+      RealMooDuck_Graphics2_185: -1314402330
+      RealMooDuck_Graphics2_34: 2093962393
+      RealMooDuck_Graphics2_114: -1104009037
+      RealMooDuck_Graphics2_90: 411361582
+      RealMooDuck_Graphics2_4: -520316899
+      RealMooDuck_Graphics2_2: -2050904477
+      RealMooDuck_Graphics2_138: 1164111654
+      RealMooDuck_Graphics2_188: 1836768717
+      RealMooDuck_Graphics2_159: 844371467
+      RealMooDuck_Graphics2_74: 610366939
+      RealMooDuck_Graphics2_128: -216012410
+      RealMooDuck_Graphics2_17: 1634925744
+      RealMooDuck_Graphics2_232: -1233833022
+      RealMooDuck_Graphics2_125: -966559699
+      RealMooDuck_Graphics2_98: 1044611838
+      RealMooDuck_Graphics2_163: -1414469149
+      RealMooDuck_Graphics2_26: -1357506464
+      RealMooDuck_Graphics2_168: -918260304
+      RealMooDuck_Graphics2_131: -1429228601
+      RealMooDuck_Graphics2_192: 2010241486
+      RealMooDuck_Graphics2_121: 608444760
+      RealMooDuck_Graphics2_152: 157548733
+      RealMooDuck_Graphics2_20: 2143279441
+      RealMooDuck_Graphics2_202: 86307657
+      RealMooDuck_Graphics2_126: -691977233
+      RealMooDuck_Graphics2_233: -1312660780
+      RealMooDuck_Graphics2_162: -1729828171
+      RealMooDuck_Graphics2_156: -1129691859
+      RealMooDuck_Graphics2_248: 538275567
+      RealMooDuck_Graphics2_62: -1571496849
+      RealMooDuck_Graphics2_199: -361805048
+      RealMooDuck_Graphics2_60: 1318288442
+      RealMooDuck_Graphics2_77: -967536555
+      RealMooDuck_Graphics2_197: -1978335458
+      RealMooDuck_Graphics2_150: 483485823
+      RealMooDuck_Graphics2_201: -2034582209
+      RealMooDuck_Graphics2_100: -1062802261
+      RealMooDuck_Graphics2_63: 1025612288
+      RealMooDuck_Graphics2_161: 1431659390
+      RealMooDuck_Graphics2_75: 296389406
+      RealMooDuck_Graphics2_104: 911434283
+      RealMooDuck_Graphics2_139: 814051061
+      RealMooDuck_Graphics2_81: 1440463544
+      RealMooDuck_Graphics2_186: -985725939
+      RealMooDuck_Graphics2_30: -646016861
+      RealMooDuck_Graphics2_116: 78929022
+      RealMooDuck_Graphics2_112: -1702335313
+      RealMooDuck_Graphics2_28: -278310663
+      RealMooDuck_Graphics2_38: -2041199445
+      RealMooDuck_Graphics2_68: 990052089
+      RealMooDuck_Graphics2_245: 405971998
+      RealMooDuck_Graphics2_57: 1315104474
+      RealMooDuck_Graphics2_24: -885528310
+      RealMooDuck_Graphics2_65: -1474400180
+      RealMooDuck_Graphics2_9: 2022620990
+      RealMooDuck_Graphics2_211: -817764164
+      RealMooDuck_Graphics2_246: -1212007962
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
