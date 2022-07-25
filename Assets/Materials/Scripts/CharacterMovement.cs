@@ -4,18 +4,19 @@ using UnityEngine;
 
 public class CharacterMovement : MonoBehaviour
 {
-    private Rigidbody2D rb;
+    public Rigidbody2D rb;
     private BoxCollider2D bc;
     private Animator anim;
     private SpriteRenderer sprite;
-    [SerializeField] private float speed = 5;
-    [SerializeField] private float airSpeedCoef = 1.25f;
-    [SerializeField] private float jumpAmount = 35;
-    [SerializeField] private float gravityScale = 10;
-    [SerializeField] private float fallingGravityScale = 40;
+    [SerializeField] private float speed;
+    [SerializeField] private float airSpeedCoef;
+    [SerializeField] private float jumpAmount;
+    [SerializeField] private float gravityScale;
+    [SerializeField] private float fallingGravityScale;
     [SerializeField] private LayerMask platformlayerMask;
     private float extraHeight = 0.07f;
     private Vector3 input;
+
 
     private void Start()
     {
@@ -29,12 +30,14 @@ public class CharacterMovement : MonoBehaviour
     {
         if (IsGrounded()) { State = States.idle; }
         if (Input.GetButton("Horizontal")) Run();
-        if (Input.GetKeyDown(KeyCode.Space) && IsGrounded()) Jump();
+        Jump();
+        
+
     }
 
     private enum States
     {
-        idle, run, jump
+        idle, run, jump, flying
     }
 
     private States State
@@ -67,9 +70,10 @@ public class CharacterMovement : MonoBehaviour
 
     public void Jump()
     {
-        rb.AddForce(Vector2.up * jumpAmount, ForceMode2D.Impulse);
-        State = States.jump;
-
+        if (Input.GetKeyDown(KeyCode.Space) && IsGrounded())
+        {
+            rb.AddForce(Vector2.up * jumpAmount, ForceMode2D.Impulse);
+        }
         if (rb.velocity.y >= 0)
         {
             rb.gravityScale = gravityScale;
@@ -79,6 +83,7 @@ public class CharacterMovement : MonoBehaviour
             rb.gravityScale = fallingGravityScale;
         }
     }
+
 
     public bool IsGrounded()
     {

@@ -18,14 +18,14 @@ public class Health : MonoBehaviour
         bc = GetComponent<BoxCollider2D>();
     }
 
-    public void TakeDamage(int damage)
+    public void TakeDamage(int damage, int pushForce)
     {
         if (!godMode && gameObject.tag == "Player")
         {
             hp -= damage;
             godMode = true;
-            Invoke("OffGodMode", 1f);
-            cm.Jump();
+            Invoke("OffGodMode", 0.5f);
+            cm.rb.AddForce(Vector2.up * pushForce, ForceMode2D.Impulse);
 
         }
         else if (gameObject.tag == "Cow"  || gameObject.tag == "Bullet")
