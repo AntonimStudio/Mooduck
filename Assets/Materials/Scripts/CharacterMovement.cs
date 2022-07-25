@@ -31,7 +31,7 @@ public class CharacterMovement : MonoBehaviour
         if (IsGrounded()) { State = States.idle; }
         if (Input.GetButton("Horizontal")) Run();
         Jump();
-        
+
 
     }
 
@@ -62,10 +62,11 @@ public class CharacterMovement : MonoBehaviour
 
         if (IsGrounded())
         {
-            transform.position += input * speed * Time.deltaTime;
+            rb.MovePosition(transform.position + input * Time.deltaTime * speed);
             State = States.run;
         }
-        else { transform.position += airSpeedCoef * input * speed * Time.deltaTime; }
+        else { rb.MovePosition(transform.position + input * Time.deltaTime * speed); }
+        //transform.position += airSpeedCoef * input * speed * Time.deltaTime;
     }
 
     public void Jump()

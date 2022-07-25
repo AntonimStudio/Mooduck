@@ -23,9 +23,9 @@ public class Health : MonoBehaviour
         if (!godMode && gameObject.tag == "Player")
         {
             hp -= damage;
+            cm.rb.AddForce(Vector2.up * pushForce, ForceMode2D.Impulse);
             godMode = true;
             Invoke("OffGodMode", 0.5f);
-            cm.rb.AddForce(Vector2.up * pushForce, ForceMode2D.Impulse);
 
         }
         else if (gameObject.tag == "Cow"  || gameObject.tag == "Bullet")
