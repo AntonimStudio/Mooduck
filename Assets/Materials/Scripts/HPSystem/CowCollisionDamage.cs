@@ -7,10 +7,17 @@ public class CowCollisionDamage : MonoBehaviour
     [SerializeField] private int damage;
     [SerializeField] private string collisionTag;
     [SerializeField] public int pushForce;
+    [SerializeField] public float timeOfInvincibility;
 
     private void OnTriggerStay2D(Collider2D collision)
     {
         Health hp = collision.gameObject.GetComponent<Health>();
-        hp.TakeDamage(damage, pushForce);
+        hp.TakeDamage(damage, pushForce, timeOfInvincibility);
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        Health hp = collision.gameObject.GetComponent<Health>();
+        hp.TakeDamage(damage, pushForce, timeOfInvincibility);
     }
 }

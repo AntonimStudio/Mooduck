@@ -7,13 +7,14 @@ public class CollisionDamage : MonoBehaviour
     [SerializeField] private int damage;
     [SerializeField] private string collisionTag;
     [SerializeField] public int pushForce;
+    [SerializeField] public float timeOfInvincibility;
 
     private void OnCollisionStay2D(Collision2D collision)
     {
         if (collision.gameObject.tag == collisionTag)
         {
             Health hp = collision.gameObject.GetComponent<Health>();
-            hp.TakeDamage(damage, pushForce);
+            hp.TakeDamage(damage, pushForce, timeOfInvincibility);
         }
     }
 }

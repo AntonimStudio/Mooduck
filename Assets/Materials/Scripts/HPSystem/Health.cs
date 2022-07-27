@@ -6,9 +6,10 @@ public class Health : MonoBehaviour
 {
     public BoxCollider2D bc;
     private CharacterMovement cm;
-    [SerializeField] public int hp;
+    [SerializeField] public int hp = 3;
     [SerializeField] public int maxHp;
     private bool godMode = false;
+
 
 
     private void Start()
@@ -18,14 +19,19 @@ public class Health : MonoBehaviour
         bc = GetComponent<BoxCollider2D>();
     }
 
-    public void TakeDamage(int damage, int pushForce)
+    public void TakeDamage(int damage, int pushForce, float timeOfInvincibility)
     {
+        //HpBar hpBar = gameObject.GetComponent<HpBar>();
+         
         if (!godMode && gameObject.tag == "Player")
         {
             hp -= damage;
+            
+            //hpBar.LoseHp(hp);
+            
             cm.rb.AddForce(Vector2.up * pushForce, ForceMode2D.Impulse);
             godMode = true;
-            Invoke("OffGodMode", 0.5f);
+            Invoke("OffGodMode", timeOfInvincibility);
 
         }
         else if (gameObject.tag == "Cow"  || gameObject.tag == "Bullet")

@@ -74,6 +74,7 @@ public class CharacterMovement : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space) && IsGrounded())
         {
             rb.AddForce(Vector2.up * jumpAmount, ForceMode2D.Impulse);
+            State = States.jump;
         }
         if (rb.velocity.y >= 0)
         {
