@@ -4,10 +4,13 @@ using UnityEngine;
 
 public class Health : MonoBehaviour
 {
-    public BoxCollider2D bc;
     private CharacterMovement cm;
+    private Rigidbody2D rb;
     [SerializeField] public int hp = 3;
     [SerializeField] public int maxHp;
+    public GameObject loseButton;
+    public GameObject UI;
+    public GameObject AlsoUI;
     private bool godMode = false;
 
 
@@ -16,7 +19,6 @@ public class Health : MonoBehaviour
     {
         hp = maxHp;
         cm = GetComponent<CharacterMovement>();
-        bc = GetComponent<BoxCollider2D>();
     }
 
     public void TakeDamage(int damage, int pushForce, float timeOfInvincibility)
@@ -36,9 +38,16 @@ public class Health : MonoBehaviour
             hp -= damage;
         }
 
-        if (hp <= 0)
+        if (hp <= 0 && gameObject.tag == "Player")
         {
-            Destroy(gameObject);   //ÑÆÅ×Ü ÏÐÈ ÏÅÐÂÎÉ ÆÅ ÂÎÇÌÎÆÍÎÑÒÈ!!!!!!!!!!!!!!!!!!!!!!!!!!
+            gameObject.GetComponent<BoxCollider2D>().enabled = false;
+            Invoke("YouLoseButton", 2);
+            Invoke("Extermination", 5);
+        }
+        else if (hp <= 0 && gameObject.tag == "Cow")
+        {
+            gameObject.GetComponent<BoxCollider2D>().enabled = false;
+            Invoke("Extermination", 5);
         }
     }
 
@@ -55,5 +64,17 @@ public class Health : MonoBehaviour
     private void OffGodMode()
     {
         godMode = false;
+    }
+
+    private void YouLoseButton()
+    {
+        loseButton.SetActive(true);
+        UI.SetActive(false);
+        AlsoUI.SetActive(false);
+    }
+
+    private void Extermination()
+    {
+        Destroy(gameObject);
     }
 }
