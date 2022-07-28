@@ -15,9 +15,4 @@ public class CowCollisionDamage : MonoBehaviour
         hp.TakeDamage(damage, pushForce, timeOfInvincibility);
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        Health hp = collision.gameObject.GetComponent<Health>();
-        hp.TakeDamage(damage, pushForce, timeOfInvincibility);
-    }
 }

@@ -21,13 +21,10 @@ public class Health : MonoBehaviour
 
     public void TakeDamage(int damage, int pushForce, float timeOfInvincibility)
     {
-        //HpBar hpBar = gameObject.GetComponent<HpBar>();
          
         if (!godMode && gameObject.tag == "Player")
         {
             hp -= damage;
-            
-            //hpBar.LoseHp(hp);
             
             cm.rb.AddForce(Vector2.up * pushForce, ForceMode2D.Impulse);
             godMode = true;
