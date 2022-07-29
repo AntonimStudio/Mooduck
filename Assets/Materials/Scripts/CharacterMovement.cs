@@ -65,7 +65,7 @@ public class CharacterMovement : MonoBehaviour
             rb.MovePosition(transform.position + input * Time.deltaTime * speed);
             State = States.run;
         }
-        else { rb.MovePosition(transform.position + input * Time.deltaTime * speed); }
+        else { rb.MovePosition(transform.position + airSpeedCoef * input * Time.deltaTime * speed); }
         //transform.position += airSpeedCoef * input * speed * Time.deltaTime;
     }
 
