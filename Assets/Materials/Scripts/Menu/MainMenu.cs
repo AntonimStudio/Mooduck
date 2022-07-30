@@ -2,7 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.SceneManagement;
 using UnityEngine;
-
+/*
+ Класс для меню, чтобы переключаться между сценами, не очень интересно...
+ */ 
 public class MainMenu : MonoBehaviour
 {
     public int i;

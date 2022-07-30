@@ -1,7 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+/*
+    Класс, позволяющий камере следить за игроком, пока что работает плохо
+ */ 
 public class CameraController : MonoBehaviour
 {
     [SerializeField] private Transform player;
@@ -11,7 +13,7 @@ public class CameraController : MonoBehaviour
 
     private void Start()
     {
-        if (!player) player = FindObjectOfType<CharacterMovement>().transform;
+        if (!player) player = FindObjectOfType<CharacterMovement>().transform;   //Находим игрока
     }
 
     private void Update()
@@ -22,7 +24,7 @@ public class CameraController : MonoBehaviour
             pos.z = -10f;
             if (pos.y >= 0)
             {
-               transform.position = Vector3.Lerp(transform.position, pos, Time.deltaTime);
+               transform.position = Vector3.Lerp(transform.position, pos, Time.deltaTime); //Следим за игроком, если он выше 0 по у.
             }
             else
             {
@@ -33,7 +35,7 @@ public class CameraController : MonoBehaviour
         }
     }
 
-    public void Zoom(Transform area)
+    public void Zoom(Transform area)  //Это пока что вообще не работает, но идея в том, чтобы камера могла следить за другим объектом
     {
         zoom = true;
         areaPos = area.position;

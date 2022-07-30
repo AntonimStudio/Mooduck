@@ -1,7 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+/*
+    Код, позволяющий давать игроку, коровам и пулям хп. К нему часто обращаются другие классы. 
+ */
 public class Health : MonoBehaviour
 {
     private CharacterMovement cm;
@@ -24,35 +26,34 @@ public class Health : MonoBehaviour
     public void TakeDamage(int damage, int pushForce, float timeOfInvincibility)
     {
          
-        if (!godMode && gameObject.tag == "Player")
+        if (!godMode && gameObject.tag == "Player")  //Получение урона для игрока
         {
             hp -= damage;
-            cm.rb.AddForce(Vector2.up * pushForce, ForceMode2D.Impulse);
+            cm.rb.AddForce(Vector2.up * pushForce, ForceMode2D.Impulse);  //Отталкивание игрока
 
-            
             godMode = true;
-            Invoke("OffGodMode", timeOfInvincibility);
+            Invoke("OffGodMode", timeOfInvincibility);   //Вызыванием класс, что делает игрока неуязвимым на какое-то время
 
         }
-        else if (gameObject.tag == "Cow"  || gameObject.tag == "Bullet")
+        else if (gameObject.tag == "Cow"  || gameObject.tag == "Bullet")  //Получение  урона для остальных, пока что код недописан
         {
             hp -= damage;
         }
 
-        if (hp <= 0 && gameObject.tag == "Player")
+        if (hp <= 0 && gameObject.tag == "Player")   //Смерть игрока
         {
             gameObject.GetComponent<BoxCollider2D>().enabled = false;
-            Invoke("YouLoseButton", 2);
-            Invoke("Extermination", 5);
+            Invoke("YouLoseButton", 2);     //Появление кнопки проигрыша
+            Invoke("Extermination", 5);     //Уничтожение объекта игрока
         }
-        else if (hp <= 0 && gameObject.tag == "Cow")
+        else if (hp <= 0 && gameObject.tag == "Cow")    //Смерть коров, пока что код недописан
         {
             gameObject.GetComponent<BoxCollider2D>().enabled = false;
             Invoke("Extermination", 5);
         }
     }
 
-    public void SetHealth(int bonusHp)
+    public void SetHealth(int bonusHp)    //Добавление хп, например, при съедании вишенки
     {
         hp += bonusHp;
 
