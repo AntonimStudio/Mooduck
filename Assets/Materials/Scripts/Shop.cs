@@ -11,17 +11,18 @@ public class Shop : MonoBehaviour
 
     private void Start()
     {
-        cc = GetComponent<CameraController>();
-        if (!shop) shop = FindObjectOfType<Shop>().transform;
+        shop = GetComponent<Transform>();
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        cc.Zoom(shop.transform); //Отправляем в Контроллер Камеры, координаты магазина, если игрок входит в его область
+        cc = GetComponent<CameraController>();
+        cc.GetComponent<CameraController>().Zoom(shop.transform); //Отправляем в Контроллер Камеры, координаты магазина, если игрок входит в его область
     }
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        cc.ZoomOut(); //Отключаем, если игрок выходит
+        cc = GetComponent<CameraController>();
+        cc.GetComponent<CameraController>().ZoomOut(); //Отключаем, если игрок выходит
     }
 }
