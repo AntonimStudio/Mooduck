@@ -42,7 +42,7 @@ public class Health : MonoBehaviour
 
         if (hp <= 0 && gameObject.tag == "Player")   //Смерть игрока
         {
-            gameObject.GetComponent<BoxCollider2D>().enabled = false;
+            gameObject.GetComponent<CapsuleCollider2D>().enabled = false;
             Invoke("YouLoseButton", 2);     //Появление кнопки проигрыша
             Invoke("Extermination", 5);     //Уничтожение объекта игрока
         }
@@ -73,6 +73,7 @@ public class Health : MonoBehaviour
         loseButton.SetActive(true);
         UI.SetActive(false);
         AlsoUI.SetActive(false);
+        Time.timeScale = 0f;
     }
 
     private void Extermination()

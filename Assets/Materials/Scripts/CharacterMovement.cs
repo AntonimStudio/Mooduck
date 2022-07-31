@@ -8,7 +8,7 @@ using UnityEngine;
 public class CharacterMovement : MonoBehaviour
 {
     public Rigidbody2D rb;
-    private BoxCollider2D bc;
+    private CapsuleCollider2D cc;
     private Animator anim;
     private SpriteRenderer sprite;
     [SerializeField] private float speed;
@@ -26,7 +26,7 @@ public class CharacterMovement : MonoBehaviour
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        bc = GetComponent<BoxCollider2D>();
+        cc = GetComponent<CapsuleCollider2D>();
         anim = GetComponent<Animator>();
     }
 
@@ -96,7 +96,7 @@ public class CharacterMovement : MonoBehaviour
 
     public bool IsGrounded()   //Проверка на землю под ногами с помощью BoxCast. 
     {
-        RaycastHit2D raycastHit = Physics2D.BoxCast(bc.bounds.center, bc.bounds.size, 0f, Vector2.down, extraHeight, platformlayerMask);
+        RaycastHit2D raycastHit = Physics2D.BoxCast(cc.bounds.center, cc.bounds.size, 0f, Vector2.down, extraHeight, platformlayerMask);
         return raycastHit.collider != null;
     }
 }

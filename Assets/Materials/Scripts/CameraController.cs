@@ -7,6 +7,7 @@ using UnityEngine;
 public class CameraController : MonoBehaviour
 {
     [SerializeField] private Transform player;
+    [SerializeField] private float speed;
     private Vector3 pos;
     private Vector3 areaPos;
     private bool zoom = false;
@@ -24,12 +25,12 @@ public class CameraController : MonoBehaviour
             pos.z = -10f;
             if (pos.y >= 0)
             {
-               transform.position = Vector3.Lerp(transform.position, pos, Time.deltaTime); //Следим за игроком, если он выше 0 по у.
+               transform.position = Vector3.Lerp(transform.position, pos, speed * Time.deltaTime); //Следим за игроком, если он выше 0 по у.
             }
             else
             {
                 pos.y = 0f;
-                transform.position = Vector3.Lerp(transform.position, pos, Time.deltaTime);
+                transform.position = Vector3.Lerp(transform.position, pos, speed * Time.deltaTime);
             }
 
         }
