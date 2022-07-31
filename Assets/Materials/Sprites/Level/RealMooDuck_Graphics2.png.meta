@@ -239,7 +239,7 @@ TextureImporter:
         x: 111
         y: 977
         width: 24
-        height: 5
+        height: 9
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -491,7 +491,7 @@ TextureImporter:
         x: 111
         y: 969
         width: 24
-        height: 5
+        height: 8
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5458,14 +5458,14 @@ TextureImporter:
       RealMooDuck_Graphics2_141: 1917043264
       RealMooDuck_Graphics2_46: -260367563
       RealMooDuck_Graphics2_243: 69442709
-      RealMooDuck_Graphics2_182: -1934293126
-      RealMooDuck_Graphics2_111: 1504568537
-      RealMooDuck_Graphics2_119: -1504031053
       RealMooDuck_Graphics2_49: -1353704423
+      RealMooDuck_Graphics2_182: -1934293126
+      RealMooDuck_Graphics2_119: -1504031053
       RealMooDuck_Graphics2_7: -391070894
+      RealMooDuck_Graphics2_11: -46625324
       RealMooDuck_Graphics2_122: -538725928
       RealMooDuck_Graphics2_149: -447189264
-      RealMooDuck_Graphics2_11: -46625324
+      RealMooDuck_Graphics2_111: 1504568537
       RealMooDuck_Graphics2_1: -974006679
       RealMooDuck_Graphics2_32: -1001743410
       RealMooDuck_Graphics2_78: -1539339345

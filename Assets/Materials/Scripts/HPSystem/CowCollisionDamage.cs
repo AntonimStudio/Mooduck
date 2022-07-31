@@ -16,7 +16,7 @@ public class CowCollisionDamage : MonoBehaviour
         if (collision.gameObject.tag == "Player")
         {
             Health hp = collision.gameObject.GetComponent<Health>();
-            hp.TakeDamage(damage, pushForce, timeOfInvincibility);
+            hp.TakeDamage(damage, pushForce, timeOfInvincibility, Vector2.up);
         }
     }
 

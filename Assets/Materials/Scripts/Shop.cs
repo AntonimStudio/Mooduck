@@ -12,11 +12,12 @@ public class Shop : MonoBehaviour
     private void Start()
     {
         cc = GetComponent<CameraController>();
+        if (!shop) shop = FindObjectOfType<Shop>().transform;
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        cc.Zoom(shop); //Отправляем в Контроллер Камеры, координаты магазина, если игрок входит в его область
+        cc.Zoom(shop.transform); //Отправляем в Контроллер Камеры, координаты магазина, если игрок входит в его область
     }
 
     private void OnTriggerExit2D(Collider2D collision)

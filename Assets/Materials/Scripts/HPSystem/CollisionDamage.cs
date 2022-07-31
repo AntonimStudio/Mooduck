@@ -16,7 +16,7 @@ public class CollisionDamage : MonoBehaviour
         if (collision.gameObject.tag == collisionTag)
         {
             Health hp = collision.gameObject.GetComponent<Health>();
-            hp.TakeDamage(damage, pushForce, timeOfInvincibility); //ќтправл€ем урон, силу отталкивани€ и вре€мы неу€звимости
+            hp.TakeDamage(damage, pushForce, timeOfInvincibility, Vector2.up); //ќтправл€ем урон, силу отталкивани€ и вре€мы неу€звимости
         }
     }
 }

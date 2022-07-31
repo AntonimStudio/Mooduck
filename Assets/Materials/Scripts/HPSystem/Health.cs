@@ -23,13 +23,13 @@ public class Health : MonoBehaviour
         cm = GetComponent<CharacterMovement>();
     }
 
-    public void TakeDamage(int damage, int pushForce, float timeOfInvincibility)
+    public void TakeDamage(int damage, int pushForce, float timeOfInvincibility, Vector2 direction)
     {
          
         if (!godMode && gameObject.tag == "Player")  //Получение урона для игрока
         {
             hp -= damage;
-            cm.rb.AddForce(Vector2.up * pushForce, ForceMode2D.Impulse);  //Отталкивание игрока
+            cm.rb.AddForce(direction * pushForce, ForceMode2D.Impulse);  //Отталкивание игрока
 
             godMode = true;
             Invoke("OffGodMode", timeOfInvincibility);   //Вызыванием класс, что делает игрока неуязвимым на какое-то время

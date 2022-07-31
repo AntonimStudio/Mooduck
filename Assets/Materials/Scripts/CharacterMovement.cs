@@ -20,6 +20,8 @@ public class CharacterMovement : MonoBehaviour
     private float extraHeight = 0.07f;
     private Vector3 input;
 
+    [SerializeField] private float maxVelocity;
+
 
     private void Start()
     {
@@ -31,6 +33,10 @@ public class CharacterMovement : MonoBehaviour
 
     private void Update()
     {
+        if (rb.velocity.magnitude >= maxVelocity)
+        {
+            rb.velocity = rb.velocity.normalized * maxVelocity;
+        }
         if (IsGrounded()) { State = States.idle; }
         if (Input.GetButton("Horizontal")) Run();
         Jump();
