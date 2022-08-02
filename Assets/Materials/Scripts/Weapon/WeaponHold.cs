@@ -10,6 +10,8 @@ public class WeaponHold : MonoBehaviour
     public bool hold;
     public float distance = 2f;
     private RaycastHit2D hit;
+    public GameObject gun;
+    public GameObject area;
     public Transform holdPoint;
     public float throwForce = 5f;
 
@@ -19,20 +21,18 @@ public class WeaponHold : MonoBehaviour
         {
             if (!hold)
             {
-                Debug.Log("Попытка");
+
                 Physics2D.queriesStartInColliders = false;
 
                 hit = Physics2D.Raycast(transform.position, Vector2.right * transform.localScale.x, distance);
 
-                if (hit.collider != null && hit.collider.tag == "Box")
+                if (hit.collider != null && hit.collider.tag == "Weapon")
                 {
-                    Debug.Log("1");
                     hold = true;
                 }
             }
             else
             {
-                Debug.Log("12");
                 hold = false;
                 if (hit.collider.gameObject.GetComponent<Rigidbody2D>() != null)
                 {
@@ -56,6 +56,7 @@ public class WeaponHold : MonoBehaviour
                 hit.collider.gameObject.transform.localScale = new Vector2(transform.localScale.x * 1, transform.localScale.y * 1);
             }
         }
+
     }
 
     private void OnDrawGizmos()

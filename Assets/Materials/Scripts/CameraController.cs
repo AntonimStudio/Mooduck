@@ -40,8 +40,17 @@ public class CameraController : MonoBehaviour
     {
         zoom = true;
         areaPos = area.position;
+        areaPos.z = -10f;
 
-        transform.position = Vector3.Lerp(transform.position, areaPos, Time.deltaTime);
+        if (areaPos.y >= 0)
+        {
+            transform.position = Vector3.Lerp(transform.position, areaPos, speed * Time.deltaTime); //Следим за игроком, если он выше 0 по у.
+        }
+        else
+        {
+            areaPos.y = 0f;
+            transform.position = Vector3.Lerp(transform.position, areaPos, speed * Time.deltaTime);
+        }
 
     }
 
