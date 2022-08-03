@@ -5,13 +5,18 @@ using UnityEngine;
 public class Gun : MonoBehaviour
 {
     [SerializeField] public Transform holdPoint;
-    [SerializeField] public Transform mooduck;
+    [SerializeField] public GameObject mooduck;
     [SerializeField] public GameObject gun;
     [SerializeField] private float throwForce = 15f; 
     private Vector3 pos;
     private int direction;
-    private bool equip = false;
+    public bool equip = false;
     private bool up = false;
+
+    private void Start()
+    {
+        gun.GetComponent<GunAnimation>().State = GunAnimation.States.idle;
+    }
 
     private void OnTriggerStay2D(Collider2D collision)
     {
@@ -19,11 +24,13 @@ public class Gun : MonoBehaviour
         {
             equip = true;
             gun.gameObject.transform.rotation = new Quaternion(0f, 0f, 0f, 0f);
+            gun.GetComponent<GunAnimation>().State = GunAnimation.States.equiped;
         }
     }
 
     private void OnCollisionExit2D(Collision2D collision)
     {
+
     }
 
     private void Update()
@@ -33,10 +40,10 @@ public class Gun : MonoBehaviour
 
         if (equip) 
         {
-
+            mooduck.GetComponent<CharacterMovement>().ChangeAnim();
             gun.gameObject.GetComponent<Rigidbody2D>().freezeRotation = true;
             gun.GetComponent<PolygonCollider2D>().gameObject.transform.position = new Vector3(holdPoint.position.x, holdPoint.position.y, -3f);
-
+            gun.gameObject.GetComponent<PolygonCollider2D>().enabled = false;
             if (direction == -1)
             {
                 gun.gameObject.transform.localRotation = Quaternion.Euler(0, 180, 0);
@@ -46,11 +53,11 @@ public class Gun : MonoBehaviour
                 gun.gameObject.transform.localRotation = Quaternion.Euler(0, 0, 0);
             }
 
-            if (holdPoint.position.x >= mooduck.position.x && equip == true)
+            if (holdPoint.position.x >= mooduck.transform.position.x && equip == true)
             {
                 gun.gameObject.transform.localScale = new Vector2(gun.gameObject.transform.localScale.x * 1, gun.gameObject.transform.localScale.y * 1);
             }
-            if (holdPoint.position.x < transform.position.x && equip == true)
+            if (holdPoint.position.x < mooduck.transform.position.x && equip == true)
             {
                 gun.gameObject.transform.localScale = new Vector2(gun.gameObject.transform.localScale.x * 1, gun.gameObject.transform.localScale.y * 1);
             }
@@ -61,6 +68,8 @@ public class Gun : MonoBehaviour
             {
                 equip = false;
                 up = false;
+                mooduck.GetComponent<CharacterMovement>().ChangeAnimBack();
+                gun.gameObject.GetComponent<PolygonCollider2D>().enabled = true;
                 gun.gameObject.GetComponent<Rigidbody2D>().freezeRotation = false;
                 if (gun.gameObject.GetComponent<Rigidbody2D>() != null && direction == 1)
                 {
@@ -72,6 +81,7 @@ public class Gun : MonoBehaviour
                     gun.gameObject.GetComponent<Rigidbody2D>().velocity = new Vector2(transform.localScale.x * direction, 1) * throwForce;
                     gun.gameObject.transform.localRotation = Quaternion.Euler(0, 180, 0);
                 }
+                gun.GetComponent<GunAnimation>().State = GunAnimation.States.idle;
             }
         }
 

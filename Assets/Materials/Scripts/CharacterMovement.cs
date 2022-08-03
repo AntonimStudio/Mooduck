@@ -17,6 +17,7 @@ public class CharacterMovement : MonoBehaviour
     [SerializeField] private float gravityScale;
     [SerializeField] private float fallingGravityScale;
     [SerializeField] private LayerMask platformlayerMask;
+    private bool equip = false;
     private float extraHeight = 0.07f;
     private Vector3 input;
 
@@ -37,14 +38,23 @@ public class CharacterMovement : MonoBehaviour
         {
             rb.velocity = rb.velocity.normalized * maxVelocity;
         }
-        if (IsGrounded()) { State = States.idle; }
+
+        if (IsGrounded()  && !equip) 
+        { 
+            State = States.idle; 
+        } 
+        else if (IsGrounded() && equip)
+        {
+            State = States.idlegun;
+        }
+
         if (Input.GetButton("Horizontal")) Run();
         Jump();
     }
 
     private enum States
     {
-        idle, run, jump, flying
+        idle, run, jump, flying, idlegun, rungun, jumpgun
     }
 
     private States State
@@ -70,7 +80,8 @@ public class CharacterMovement : MonoBehaviour
         if (IsGrounded())
         {
             rb.MovePosition(transform.position + input * Time.deltaTime * speed); //строчка отвечающая за передвижение
-            State = States.run;
+            if (!equip) { State = States.run; }
+            else if (equip) { State = States.rungun; }
         }
         else { rb.MovePosition(transform.position + airSpeedCoef * input * Time.deltaTime * speed); } //строчка отвечающая за передвижение в воздухе
         //transform.position += airSpeedCoef * input * speed * Time.deltaTime;    - это старый способ, в котором было несколько багов
@@ -81,7 +92,8 @@ public class CharacterMovement : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space) && IsGrounded())
         {
             rb.AddForce(Vector2.up * jumpAmount, ForceMode2D.Impulse);   //Собственно, сам прыжок
-            State = States.jump;
+            if (!equip) { State = States.jump; }
+            else if (equip) { State = States.jumpgun; }
         }
         if (rb.velocity.y >= 0)
         {
@@ -98,5 +110,15 @@ public class CharacterMovement : MonoBehaviour
     {
         RaycastHit2D raycastHit = Physics2D.BoxCast(cc.bounds.center, cc.bounds.size, 0f, Vector2.down, extraHeight, platformlayerMask);
         return raycastHit.collider != null;
+    }
+
+    public void ChangeAnim()
+    {
+        equip = true;
+    }
+
+    public void ChangeAnimBack()
+    {
+        equip = false;
     }
 }
