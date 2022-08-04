@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Gun
   - Box
+  - Block
+  - Food
+  - Cow
   layers:
   - Default
   - TransparentFX
@@ -17,8 +20,8 @@ TagManager:
   - Interactive Items
   - Player
   - Guns
-  - 
-  - 
+  - Bullet
+  - Enemies
   - 
   - 
   - 

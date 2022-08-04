@@ -7,8 +7,8 @@ public class Gun : MonoBehaviour
     [SerializeField] public Transform holdPoint;
     [SerializeField] public GameObject mooduck;
     [SerializeField] public GameObject gun;
+    [SerializeField] public GameObject muzzle;
     [SerializeField] private float throwForce = 15f; 
-    private Vector3 pos;
     private int direction;
     public bool equip = false;
     private bool up = false;
@@ -20,7 +20,7 @@ public class Gun : MonoBehaviour
 
     private void OnTriggerStay2D(Collider2D collision)
     {
-        if (Input.GetKeyDown(KeyCode.E) && collision.gameObject.tag == "Player") 
+        if (Input.GetKeyDown(KeyCode.F) && collision.gameObject.tag == "Player") 
         {
             equip = true;
             gun.gameObject.transform.rotation = new Quaternion(0f, 0f, 0f, 0f);
@@ -47,10 +47,12 @@ public class Gun : MonoBehaviour
             if (direction == -1)
             {
                 gun.gameObject.transform.localRotation = Quaternion.Euler(0, 180, 0);
+                muzzle.gameObject.transform.Rotate (0, 180, 0);
             }
             if (direction == 1)
             {
                 gun.gameObject.transform.localRotation = Quaternion.Euler(0, 0, 0);
+                muzzle.gameObject.transform.Rotate(0, 0, 0);
             }
 
             if (holdPoint.position.x >= mooduck.transform.position.x && equip == true)
@@ -62,9 +64,9 @@ public class Gun : MonoBehaviour
                 gun.gameObject.transform.localScale = new Vector2(gun.gameObject.transform.localScale.x * 1, gun.gameObject.transform.localScale.y * 1);
             }
 
-            if (Input.GetKeyUp(KeyCode.E)) { up = true;  }
+            if (Input.GetKeyUp(KeyCode.F)) { up = true;  }
 
-            if (Input.GetKeyDown(KeyCode.E) && up)
+            if (Input.GetKeyDown(KeyCode.F) && up)
             {
                 equip = false;
                 up = false;
