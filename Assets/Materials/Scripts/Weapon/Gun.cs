@@ -9,7 +9,7 @@ public class Gun : MonoBehaviour
     [SerializeField] public GameObject gun;
     [SerializeField] public GameObject muzzle;
     [SerializeField] private float throwForce = 15f; 
-    private int direction;
+    public int direction;
     public bool equip = false;
     private bool up = false;
 
@@ -25,6 +25,7 @@ public class Gun : MonoBehaviour
             equip = true;
             gun.gameObject.transform.rotation = new Quaternion(0f, 0f, 0f, 0f);
             gun.GetComponent<GunAnimation>().State = GunAnimation.States.equiped;
+            gun.gameObject.GetComponent<Rigidbody2D>().gravityScale = 0f;
         }
     }
 
@@ -70,6 +71,7 @@ public class Gun : MonoBehaviour
             {
                 equip = false;
                 up = false;
+                gun.gameObject.GetComponent<Rigidbody2D>().gravityScale = 6f;
                 mooduck.GetComponent<CharacterMovement>().ChangeAnimBack();
                 gun.gameObject.GetComponent<PolygonCollider2D>().enabled = true;
                 gun.gameObject.GetComponent<Rigidbody2D>().freezeRotation = false;

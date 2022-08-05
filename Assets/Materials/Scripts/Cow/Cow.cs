@@ -27,7 +27,7 @@ public class Cow : MonoBehaviour
         //rb.AddForce(transform.forward * thrust, ForceMode.VelocityChange);
 
         if (now == kolvo) { now = 0; }
-        gameObject.transform.position = Vector3.MoveTowards(gameObject.transform.position, points[now], Time.deltaTime * speed);
-        if (gameObject.transform.position == points[now]) { now++; }
+        gameObject.transform.position = new Vector3(Mathf.MoveTowards(gameObject.transform.position.x, points[now].x, speed * Time.deltaTime), transform.position.y, transform.position.z);
+        if (gameObject.transform.position.x == points[now].x) { now++; }
     }
 }

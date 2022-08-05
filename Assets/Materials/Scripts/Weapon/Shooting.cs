@@ -6,8 +6,8 @@ public class Shooting : MonoBehaviour
 {
 
     public Transform muzzle;
-    public GameObject bullet;
-    public GameObject gun;
+    public Bullet bullet;
+    public Gun gun;
 
     private void Update()
     {
@@ -19,6 +19,6 @@ public class Shooting : MonoBehaviour
 
     private void Shoot()
     {
-        Instantiate(bullet, muzzle.position, Quaternion.identity);
+        Instantiate(bullet, muzzle.position, Quaternion.identity).Init(gun.direction);
     }
 }

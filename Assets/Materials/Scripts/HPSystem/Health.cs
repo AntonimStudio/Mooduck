@@ -44,7 +44,7 @@ public class Health : MonoBehaviour
         {
             gameObject.GetComponent<CapsuleCollider2D>().enabled = false;
             Invoke("YouLoseButton", 2);     //Появление кнопки проигрыша
-            Invoke("Extermination", 5);     //Уничтожение объекта игрока
+            Invoke("Extermination", 4);     //Уничтожение объекта игрока
         }
         else if (hp <= 0 && gameObject.tag == "Cow")    //Смерть коров, пока что код недописан
         {
