@@ -13,14 +13,11 @@ public class Shop : MonoBehaviour
     
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        cc.Zoom(transform); //Отправляем в Контроллер Камеры, координаты магазина, если игрок входит в его область
-        //MainCamera.transform.position = Vector3.Lerp(MainCamera.transform.position, transform.position, 2 * Time.deltaTime);
-        MainCamera.orthographicSize = 3f;
+        if (collision.GetComponent<Mooduck>()) cc.Zoom(transform); //Отправляем в Контроллер Камеры, координаты магазина, если игрок входит в его область
     }
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        MainCamera.orthographicSize = 5f;
-        cc.ZoomOut(); //Отключаем, если игрок выходит
+        if (collision.GetComponent<Mooduck>()) cc.ZoomOut(); //Отключаем, если игрок выходит
     }
 }
