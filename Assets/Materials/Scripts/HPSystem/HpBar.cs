@@ -5,7 +5,7 @@ using UnityEngine;
 public class HpBar : MonoBehaviour
 {
     private Animator anim;
-    public PlayerHealth hp;
+    [SerializeField] private PlayerHealth hp;
 
     private void Start()
     {

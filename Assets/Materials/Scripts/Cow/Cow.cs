@@ -2,18 +2,24 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Cow : MonoBehaviour
+public class Cow : MonoBehaviour, BulletDestroyer
 {
     private Animator anim;
-    public float speed;
-    public int kolvo;
-    public GameObject[] gameObjects;
-    public Vector3[] points;
+    private Rigidbody2D rb;
+    private BoxCollider2D bc;
+    [SerializeField] private int pushForce;
+    [SerializeField] private float speed;
+    [SerializeField] private int kolvo;
+    [SerializeField] private GameObject[] gameObjects;
+    [SerializeField] private Vector3[] points;
     private int now = 0;
-    [SerializeField] private bool rotate = true;
+    private bool rotate = true;
+    private bool death = false;
 
     void Start()
     {
+        bc = GetComponent<BoxCollider2D>();
+        rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         for (int i = 0; i < kolvo; i++)
         {
@@ -25,8 +31,9 @@ public class Cow : MonoBehaviour
     {
         if (now == kolvo) { now = 0; }
         transform.position = new Vector3(Mathf.MoveTowards(transform.position.x, points[now].x, speed * Time.deltaTime), transform.position.y, transform.position.z);
-        State = States.run;
-        if (transform.position.x == points[now].x) 
+        if (!death) State = States.run;
+        else State = States.death;
+        if (transform.position.x == points[now].x && !death) 
         { 
             now++;
             if (rotate)
@@ -51,6 +58,15 @@ public class Cow : MonoBehaviour
     private enum States
     {
         idle, run, death
+    }
+
+    public void TakeBullet(Bullet bullet)
+    {
+        Destroy(bullet.gameObject);
+        rb.AddForce(Vector2.up * pushForce, ForceMode2D.Impulse);
+        death = true;
+        bc.enabled = false;
+
     }
 
 }

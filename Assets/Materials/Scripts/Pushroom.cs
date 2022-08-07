@@ -1,27 +1,32 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-/*
-    Класс для гриба, чтобы отталкивать игрока 
- */
-public class Pushroom : MonoBehaviour
+
+public class Pushroom : MonoBehaviour, BulletDestroyer
 {
-    public int num = 1; //От этого числа зависит направление, в которое гриб отталкнет игрока
-    public float pushForce = 18f;
+    [SerializeField] private int num = 1; //От этого числа зависит направление, в которое гриб отталкнет игрока
+    [SerializeField] private float pushForce = 18f;
+    private Rigidbody2D rb;
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("Player") && num == 1)
+        rb = collision.gameObject.GetComponent<Rigidbody2D>();
+        if (collision.gameObject.GetComponent<Mooduck>() && num == 1)
         {
-            collision.gameObject.GetComponent<Rigidbody2D>().AddForce(Vector2.up * pushForce, ForceMode2D.Impulse); //Отталкивание вверх
+            rb.AddForce(Vector2.up * pushForce, ForceMode2D.Impulse); //Отталкивание вверх
         } 
-        else if (collision.gameObject.CompareTag("Player") && num == 2)
+        else if (collision.gameObject.GetComponent<Mooduck>() && num == 2)
         {
-            collision.gameObject.GetComponent<Rigidbody2D>().AddForce(Vector2.right * pushForce, ForceMode2D.Impulse); //Отталкивание вправо
+            rb.AddForce(Vector2.right * pushForce, ForceMode2D.Impulse); //Отталкивание вправо
         }
-        else if (collision.gameObject.CompareTag("Player") && num == 3)
+        else if (collision.gameObject.GetComponent<Mooduck>() && num == 3)
         {
-            collision.gameObject.GetComponent<Rigidbody2D>().AddForce(Vector2.left * pushForce, ForceMode2D.Impulse); //Отталкивание влево
+            rb.AddForce(Vector2.left * pushForce, ForceMode2D.Impulse); //Отталкивание влево
         }
+    }
+
+    public void TakeBullet(Bullet bullet)
+    {
+        Destroy(bullet.gameObject);
     }
 }

@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class Bullet : MonoBehaviour
 {
-    public float speed;
+    [SerializeField] private float speed;
+    [SerializeField] private ParticleSystem particles;
     private Rigidbody2D rb;
     private int direction;
     
@@ -18,6 +19,7 @@ public class Bullet : MonoBehaviour
     {
         if (collision.TryGetComponent(out BulletDestroyer destroyer))
         {
+            Instantiate(particles, transform.position, Quaternion.identity);
             destroyer.TakeBullet(this); 
         }
     }

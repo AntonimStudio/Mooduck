@@ -5,13 +5,13 @@ using UnityEngine;
 public class Button : MonoBehaviour
 {
     private Animator anim;
-    public bool buttonPushed = false;
-    public GameObject wall;
-    public GameObject pos0;
-    public GameObject pos1;
+    [SerializeField] private float speed = 5;
+    [SerializeField] private bool buttonPushed = false;
+    [SerializeField] private GameObject wall;
+    [SerializeField] private GameObject pos0;
+    [SerializeField] private GameObject pos1;
     private Vector3 startPoint;
     private Vector3 endPoint;
-    public float speed = 5;
 
     void Start()
     {
@@ -39,25 +39,17 @@ public class Button : MonoBehaviour
             wall.transform.position = Vector3.MoveTowards(wall.transform.position, endPoint, Time.deltaTime * speed);
             State = States.pushed;
         }
-            
-        else
-            wall.transform.position = Vector3.MoveTowards(wall.transform.position, startPoint, Time.deltaTime * 2*speed);
+        else wall.transform.position = Vector3.MoveTowards(wall.transform.position, startPoint, Time.deltaTime * 2 * speed);
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.tag == "Player" || collision.gameObject.tag == "Cow" || collision.gameObject.tag == "Gun" || collision.gameObject.tag == "Box")
-        {
-            buttonPushed = true;
-            /*
-            wall.transform.position = Vector3.Lerp(endPoint, startPoint, Time.deltaTime * speed);
-            */
-        }
+        if (collision.gameObject.GetComponent<PressureResponse>()) { buttonPushed = true; }
     }
 
     private void OnCollisionExit2D(Collision2D collision)
     {
-        if (collision.gameObject.tag == "Player" || collision.gameObject.tag == "Cow" || collision.gameObject.tag == "Gun" || collision.gameObject.tag == "Box")
+        if (collision.gameObject.GetComponent<PressureResponse>())
         {
             State = States.unpushed;
             buttonPushed = false;

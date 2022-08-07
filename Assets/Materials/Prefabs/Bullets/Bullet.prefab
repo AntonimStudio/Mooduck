@@ -148,7 +148,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
-  rb: {fileID: 0}
+  particles: {fileID: 1521045245617524295, guid: 6af19cd13594ac74da75804c2ba44175, type: 3}
 --- !u!114 &-8538214868809996792
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -162,6 +162,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
-  collisionTag: Cow
   pushForce: 15
   timeOfInvincibility: 0
