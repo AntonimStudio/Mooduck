@@ -1,14 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-/*
-    Код отвечающей за смену спрайта полоски хп, но это сделано не с помощью смены спрайта, а с помощью анимаций
- */
+
 public class HpBar : MonoBehaviour
 {
     private Animator anim;
-    private SpriteRenderer sprite;
-    public Health hp;
+    public PlayerHealth hp;
 
     private void Start()
     {
@@ -26,7 +23,7 @@ public class HpBar : MonoBehaviour
     {
         hp_0, hp_1, hp_2, fullhp
     }
-
+    
     private void Update()
     {
         if (hp.hp >= 3) { State = States.fullhp; }
@@ -34,4 +31,5 @@ public class HpBar : MonoBehaviour
         if (hp.hp == 1) { State = States.hp_1; }
         if (hp.hp <= 0) { State = States.hp_0; }
     }
+    
 }

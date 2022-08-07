@@ -7,16 +7,15 @@ using UnityEngine;
 public class CollisionDamage : MonoBehaviour
 {
     [SerializeField] private int damage;
-    [SerializeField] private string collisionTag;
-    [SerializeField] public int pushForce;
-    [SerializeField] public float timeOfInvincibility;
+    [SerializeField] private int pushForce;
+    [SerializeField] private float timeOfInvincibility;
 
-    private void OnCollisionStay2D(Collision2D collision) //Если мы касаемся объекта, то получаем урон
+    private void OnCollisionStay2D(Collision2D collision)
     {
-        if (collision.gameObject.tag == collisionTag)
+        if (collision.gameObject.GetComponent<Mooduck>())
         {
-            Health hp = collision.gameObject.GetComponent<Health>();
-            hp.TakeDamage(damage, pushForce, timeOfInvincibility, Vector2.up); //Отправляем урон, силу отталкивания и вреямы неуязвимости
+            PlayerHealth hp = collision.gameObject.GetComponent<PlayerHealth>();
+            hp.TakeDamage(damage, pushForce, timeOfInvincibility, Vector2.up);
         }
     }
 }

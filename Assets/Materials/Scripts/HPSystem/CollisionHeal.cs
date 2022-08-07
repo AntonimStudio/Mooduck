@@ -5,14 +5,12 @@ using UnityEngine;
 public class CollisionHeal : MonoBehaviour
 {
     [SerializeField] private int heal;
-    [SerializeField] private string collisionTag = "Player";
-
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.tag == collisionTag)
+        if (collision.gameObject.GetComponent<Mooduck>())
         {
-            Health hp = collision.gameObject.GetComponent<Health>();
+            PlayerHealth hp = collision.gameObject.GetComponent<PlayerHealth>();
 
             if (hp.hp != hp.maxHp)
             {
