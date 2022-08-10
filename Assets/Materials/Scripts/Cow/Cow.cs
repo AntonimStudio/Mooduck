@@ -7,6 +7,7 @@ public class Cow : MonoBehaviour, BulletDestroyer
     private Animator anim;
     private Rigidbody2D rb;
     private BoxCollider2D bc;
+    [SerializeField] private BoxCollider2D damageBoxCollider;
     [SerializeField] private int pushForce;
     [SerializeField] private float speed;
     [SerializeField] private int kolvo;
@@ -66,7 +67,7 @@ public class Cow : MonoBehaviour, BulletDestroyer
         rb.AddForce(Vector2.up * pushForce, ForceMode2D.Impulse);
         death = true;
         bc.enabled = false;
-
+        damageBoxCollider.enabled = false;
     }
 
 }

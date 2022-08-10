@@ -5,6 +5,7 @@ using UnityEngine;
 public class Grenade : MonoBehaviour
 {
     [SerializeField] private float speed;
+    [SerializeField] private float time = 1.5f;
     [SerializeField] private ParticleSystem particles;
     private Rigidbody2D rb;
     private int direction;
@@ -13,7 +14,7 @@ public class Grenade : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         rb.velocity = transform.right * speed;
-        Invoke(nameof(Boom), 1.5f);
+        Invoke(nameof(Boom), time);
     }
 
     public void Boom()

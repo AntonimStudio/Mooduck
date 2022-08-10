@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 76866e0ef133d294d83ce49d9e981413
+guid: 5cae43da528733f45b3d348a07f759ed
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -128,7 +128,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: barrel fragments_0
+      name: fragments_0
       rect:
         serializedVersion: 2
         x: 0
@@ -142,14 +142,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f869c3af9f16d5b4eae7033553b6c70c
-      internalID: -1229540199
+      spriteID: 8590eda6ba4bc3147a6ba538a263cc96
+      internalID: 625579898
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: barrel fragments_1
+      name: fragments_1
       rect:
         serializedVersion: 2
         x: 16
@@ -163,14 +163,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1c72c566244a6a1428f464413e93dc15
-      internalID: -1807112018
+      spriteID: 6e344284c19edff4d9063c7b472c55b2
+      internalID: -1670479265
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: barrel fragments_2
+      name: fragments_2
       rect:
         serializedVersion: 2
         x: 32
@@ -184,14 +184,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ebea23c569261414382dd54937c05371
-      internalID: 645078692
+      spriteID: d7ec876924061d8419a9b5b88ec0cb90
+      internalID: 2094858398
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: barrel fragments_3
+      name: fragments_3
       rect:
         serializedVersion: 2
         x: 48
@@ -205,14 +205,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 805266f5040575c4facb5993494672fe
-      internalID: -253586065
+      spriteID: 21d375d7a33723a4e95ac5690781fecc
+      internalID: 1554855366
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: barrel fragments_4
+      name: fragments_4
       rect:
         serializedVersion: 2
         x: 64
@@ -226,14 +226,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4a85b6d84fd045745857fa19fc89ebc0
-      internalID: 282018094
+      spriteID: 28d2f363ba06c154bb8fb799e30f3f53
+      internalID: -1237088848
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: barrel fragments_5
+      name: fragments_5
       rect:
         serializedVersion: 2
         x: 80
@@ -247,14 +247,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a964a12be54ef8040b8755935b073fa6
-      internalID: 564932361
+      spriteID: 0e4827acff327394f80b7c329a5f5182
+      internalID: -822529851
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: barrel fragments_6
+      name: fragments_6
       rect:
         serializedVersion: 2
         x: 96
@@ -268,14 +268,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 25bcb2b1432071e44bc4f8454f5e583b
-      internalID: -1071038850
+      spriteID: ad050e33060030c43a86e6c186924374
+      internalID: 1261000125
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: barrel fragments_7
+      name: fragments_7
       rect:
         serializedVersion: 2
         x: 112
@@ -289,8 +289,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cb0ef73ca60f86544974007e1bf5348c
-      internalID: -1969325501
+      spriteID: a777649268f6d97438f91d2201afe607
+      internalID: 1115017707
       vertices: []
       indices: 
       edges: []
@@ -306,14 +306,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      barrel fragments_0: -1229540199
-      barrel fragments_7: -1969325501
-      barrel fragments_6: -1071038850
-      barrel fragments_2: 645078692
-      barrel fragments_5: 564932361
-      barrel fragments_1: -1807112018
-      barrel fragments_4: 282018094
-      barrel fragments_3: -253586065
+      fragments_0: 625579898
+      fragments_1: -1670479265
+      fragments_6: 1261000125
+      fragments_4: -1237088848
+      fragments_3: 1554855366
+      fragments_2: 2094858398
+      fragments_5: -822529851
+      fragments_7: 1115017707
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

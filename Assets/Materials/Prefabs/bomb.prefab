@@ -115,7 +115,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 48
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 2
@@ -137,4 +137,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 3
-  particles: {fileID: 3065439282426500915, guid: a31a0edaa30f9fa4c91409567fa75890, type: 3}
+  time: 1.5
+  particles: {fileID: 9133272740127499332, guid: 73ee1fd3756fd0f40927cea54da60b43, type: 3}
