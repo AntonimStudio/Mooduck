@@ -16,6 +16,7 @@ public class CharacterMovement : MonoBehaviour
     [SerializeField] private LayerMask platformlayerMask;
     private bool equip = false;
     private float extraHeight = 0.07f;
+    public int direction;
     private Vector3 input;
 
     private void Start()
@@ -83,10 +84,12 @@ public class CharacterMovement : MonoBehaviour
     {
         if (Input.GetAxis("Horizontal") < 0)
         {
+            direction = -1;
             transform.localRotation = Quaternion.Euler(0, 180, 0);
         }
         if (Input.GetAxis("Horizontal") > 0)
         {
+            direction = 1;
             transform.localRotation = Quaternion.Euler(0, 0, 0);
         }
     }

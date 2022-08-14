@@ -18,7 +18,7 @@ public class CameraController : MonoBehaviour
 
     private void Start()
     {
-        if (!player) player = FindObjectOfType<CharacterMovement>().transform;   //Находим игрока
+        if (!player) player = FindObjectOfType<Mooduck>().transform;   //Находим игрока
         mainCamera = Camera.main;
     }
 
