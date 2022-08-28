@@ -11,6 +11,7 @@ public class Cow : MonoBehaviour, BulletDestroyer
     [SerializeField] private int pushForce;
     [SerializeField] private float speed;
     [SerializeField] private int kolvo;
+    [SerializeField] private float jumpDistance;
     [SerializeField] private GameObject[] gameObjects;
     [SerializeField] private Vector3[] points;
     private int now = 0;
@@ -26,6 +27,7 @@ public class Cow : MonoBehaviour, BulletDestroyer
         {
             points[i] = new Vector3(gameObjects[i].transform.position.x, gameObjects[i].transform.position.y, gameObjects[i].transform.position.z);
         }
+
     }
 
     void FixedUpdate()
@@ -48,6 +50,20 @@ public class Cow : MonoBehaviour, BulletDestroyer
                 rotate = true;
             }
         }
+        /*
+        RaycastHit2D raycastHit = Physics2D.Raycast(transform.position, transform.right * (rotate ? 1 : -1), jumpDistance); 
+        if (raycastHit)
+        {
+            Debug.Log("Jump");
+            Debug.DrawRay(transform.position, transform.right * (rotate ? 1 : -1), Color.green , jumpDistance);
+        }
+        RaycastHit2D raycastHit = Physics2D.BoxCast(bc.bounds.center, bc.bounds.size, 0f, transform.right * (rotate ? 1 : -1), jumpDistance);
+        if (raycastHit)
+        {
+            Debug.Log("Jump");
+            Debug.DrawRay(transform.position, transform.right * (rotate ? 1 : -1), Color.green, jumpDistance);
+        }
+        */
     }
 
     private States State

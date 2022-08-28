@@ -14,7 +14,6 @@ public class Gun : MonoBehaviour
     private PolygonCollider2D colliderOfGun;
     private GunAnimation gunAnimation;
     private Transform gunTransform;
-    public int direction;
     public bool equip = false;
     private bool up = false;
 
@@ -41,9 +40,6 @@ public class Gun : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetAxis("Horizontal") < 0)  {direction = -1;}
-        if (Input.GetAxis("Horizontal") > 0)  {direction = 1;}
-
         if (equip) 
         {
             PickUp();
@@ -58,8 +54,8 @@ public class Gun : MonoBehaviour
         rigibodyOfGun.freezeRotation = true;
         colliderOfGun.transform.position = new Vector3(holdPoint.position.x, holdPoint.position.y, -3f);
         colliderOfGun.enabled = false;
-        if (direction == -1){gunTransform.localRotation = Quaternion.Euler(0, 180, 0);}
-        if (direction == 1) {gunTransform.localRotation = Quaternion.Euler(0, 0, 0);}
+        if (characterMovement.direction == -1){gunTransform.localRotation = Quaternion.Euler(0, 180, 0);}
+        if (characterMovement.direction == 1) {gunTransform.localRotation = Quaternion.Euler(0, 0, 0);}
     }
 
     private void Throw()
@@ -70,14 +66,14 @@ public class Gun : MonoBehaviour
         characterMovement.ChangeAnimBack();
         colliderOfGun.enabled = true;
         rigibodyOfGun.freezeRotation = false;
-        if (rigibodyOfGun != null && direction == 1)
+        if (rigibodyOfGun != null && characterMovement.direction == 1)
         {
-            rigibodyOfGun.velocity = new Vector2(transform.localScale.x * direction, 1) * throwForce;
+            rigibodyOfGun.velocity = new Vector2(transform.localScale.x * characterMovement.direction, 1) * throwForce;
             gunTransform.localRotation = Quaternion.Euler(0, 0, 0);
         }
-        else if (rigibodyOfGun != null && direction == -1)
+        else if (rigibodyOfGun != null && characterMovement.direction == -1)
         {
-            rigibodyOfGun.velocity = new Vector2(transform.localScale.x * direction, 1) * throwForce;
+            rigibodyOfGun.velocity = new Vector2(transform.localScale.x * characterMovement.direction, 1) * throwForce;
             gunTransform.localRotation = Quaternion.Euler(0, 180, 0);
         }
         gunAnimation.State = GunAnimation.States.idle;

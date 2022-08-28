@@ -7,7 +7,7 @@ public class Grenade : MonoBehaviour
     [SerializeField] private float speed;
     [SerializeField] private float time = 1.5f;
     [SerializeField] private ParticleSystem particles;
-    private GameObject mooduck;
+    [SerializeField] private Explosion boom;
     private CharacterMovement characterMovement;
     private Rigidbody2D rb;
     private int direction;
@@ -15,15 +15,20 @@ public class Grenade : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        mooduck = GameObject.Find("Mooduck");
-        characterMovement = mooduck.GetComponent<CharacterMovement>();
         rb.velocity = (transform.right * characterMovement.direction + transform.up) * speed;
-        Invoke(nameof(Boom), time);
+        StartCoroutine(Booming());
     }
 
-    public void Boom()
+    public void Init(CharacterMovement characterMovement)
     {
-        Instantiate(particles, transform.position, Quaternion.identity);
+        this.characterMovement = characterMovement;
+    }
+
+    private IEnumerator Booming()
+    {
+        yield return new WaitForSeconds(time);
+        Destroy(Instantiate(particles, transform.position, Quaternion.identity), particles.duration + particles.startLifetime);
         Destroy(gameObject);
+        Destroy(Instantiate(boom, transform.position, Quaternion.identity), boom.LifeTime);
     }
 }

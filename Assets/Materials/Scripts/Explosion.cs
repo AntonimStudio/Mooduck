@@ -3,31 +3,24 @@ using System.Collections;
 
 public class Explosion : MonoBehaviour
 {
-    private bool exploted = false;
-    private CircleCollider2D ExplosionCollider;
-
-    private void Start()
-    {
-        ExplosionCollider = gameObject.GetComponent<CircleCollider2D>();
-        exploted = false;
-    }
-
-    public void Explode()
-    {
-        exploted = true;
-    }
-
+    [SerializeField] private float lifeTime = 0.01f;
+    [SerializeField] private float force = 700f;
+    [SerializeField] private float explodeAnotherBarrelTime = 0.5f;
+    public float LifeTime => lifeTime;
+    
     private void OnTriggerStay2D(Collider2D collision)
     {
-        if (exploted == true)
+        if (collision.TryGetComponent(out Rigidbody2D rb))
         {
-            if (collision.gameObject.GetComponent<Rigidbody2D>() != null)
-            {
-                Vector2 target = collision.gameObject.transform.position;
-                Vector2 bomb = this.gameObject.transform.position;
-                Vector2 direction = 10000f * (target - bomb);
-                collision.gameObject.GetComponent<Rigidbody2D>().AddForce(direction);
-            }
+            Vector2 target = collision.transform.position;
+            Vector2 bomb = transform.position;
+            Vector2 direction = force * (target - bomb);
+            rb.AddForce(direction);
+        }
+
+        if (collision.TryGetComponent(out Barrel barrel))
+        {
+            barrel.Exploding(1f);
         }
     }
 }

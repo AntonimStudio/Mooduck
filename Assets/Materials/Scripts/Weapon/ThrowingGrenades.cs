@@ -5,6 +5,7 @@ using UnityEngine;
 public class ThrowingGrenades : MonoBehaviour
 {
     [SerializeField] private Transform muzzle;
+    [SerializeField] private CharacterMovement characterMovement;
     [SerializeField] private Grenade grenade;
     [SerializeField] private float reloadTime = 0.5f;
     private bool reload = true;
@@ -15,17 +16,18 @@ public class ThrowingGrenades : MonoBehaviour
         {
             Throw();
             reload = false;
-            Invoke("OffReload", reloadTime);
+            StartCoroutine(OffReloading());
         }
     }
 
     private void Throw()
     {
-        Instantiate(grenade, muzzle.position, Quaternion.identity);
+        Instantiate(grenade, muzzle.position, Quaternion.identity).Init(characterMovement);
     }
 
-    private void OffReload()
+    private IEnumerator OffReloading()
     {
+        yield return new WaitForSeconds(reloadTime);
         reload = true;
     }
 }

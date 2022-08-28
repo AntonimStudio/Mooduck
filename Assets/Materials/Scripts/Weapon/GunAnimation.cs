@@ -6,7 +6,7 @@ public class GunAnimation : MonoBehaviour
 {
     private Animator anim;
 
-    private void Start()
+    private void Awake()
     {
         anim = GetComponent<Animator>();
         State = States.idle;

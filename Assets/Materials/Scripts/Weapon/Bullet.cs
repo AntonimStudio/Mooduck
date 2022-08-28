@@ -19,7 +19,7 @@ public class Bullet : MonoBehaviour
     {
         if (collision.TryGetComponent(out BulletDestroyer destroyer))
         {
-            Instantiate(particles, transform.position, Quaternion.identity);
+            Destroy(Instantiate(particles, transform.position, Quaternion.identity), particles.duration + particles.startLifetime);
             destroyer.TakeBullet(this); 
         }
     }

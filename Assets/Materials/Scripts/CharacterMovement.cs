@@ -19,7 +19,7 @@ public class CharacterMovement : MonoBehaviour
     public int direction;
     private Vector3 input;
 
-    private void Start()
+    private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
         cc = GetComponent<CapsuleCollider2D>();

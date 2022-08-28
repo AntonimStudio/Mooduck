@@ -16,7 +16,7 @@ public class CameraController : MonoBehaviour
     private Vector3 areaPos;
     private bool zoom = false;
 
-    private void Start()
+    private void Awake()
     {
         if (!player) player = FindObjectOfType<Mooduck>().transform;   //Находим игрока
         mainCamera = Camera.main;
